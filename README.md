@@ -1,6 +1,6 @@
 # Fruitables
 E-Commerce Website  
 ITI - MVC Project  
-Live Preview: https://htmlcodex.com/demo/?item=2824
-Theme Download: https://htmlcodex.com/vegetable-website-template  
-<a href="#">Link</a>
+Live Preview: <a href="https://htmlcodex.com/demo/?item=2824">Link</a>  
+Theme Download:  <a href="https://htmlcodex.com/vegetable-website-template">Link</a>
+
