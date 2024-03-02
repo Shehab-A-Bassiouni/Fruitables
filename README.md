@@ -1,2 +1,3 @@
 # Fruitables
-E-Commerce Website - MVC Project
+E-Commerce Website
+ITI - MVC Project
