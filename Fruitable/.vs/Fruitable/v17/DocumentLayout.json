@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\swesh\\OneDrive\\Desktop\\Fruitables\\Fruitable\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB8A31A-71A7-4E82-A60E-130DA0C81588}|Fruitable\\Fruitable.csproj|c:\\users\\swesh\\onedrive\\desktop\\fruitables\\fruitable\\fruitable\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DB8A31A-71A7-4E82-A60E-130DA0C81588}|Fruitable\\Fruitable.csproj|solutionrelative:fruitable\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB8A31A-71A7-4E82-A60E-130DA0C81588}|Fruitable\\Fruitable.csproj|c:\\users\\swesh\\onedrive\\desktop\\fruitables\\fruitable\\fruitable\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DB8A31A-71A7-4E82-A60E-130DA0C81588}|Fruitable\\Fruitable.csproj|solutionrelative:fruitable\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB8A31A-71A7-4E82-A60E-130DA0C81588}|Fruitable\\Fruitable.csproj|c:\\users\\swesh\\onedrive\\desktop\\fruitables\\fruitable\\fruitable\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DB8A31A-71A7-4E82-A60E-130DA0C81588}|Fruitable\\Fruitable.csproj|solutionrelative:fruitable\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB8A31A-71A7-4E82-A60E-130DA0C81588}|Fruitable\\Fruitable.csproj|c:\\users\\swesh\\onedrive\\desktop\\fruitables\\fruitable\\fruitable\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DB8A31A-71A7-4E82-A60E-130DA0C81588}|Fruitable\\Fruitable.csproj|solutionrelative:fruitable\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB8A31A-71A7-4E82-A60E-130DA0C81588}|Fruitable\\Fruitable.csproj|c:\\users\\swesh\\onedrive\\desktop\\fruitables\\fruitable\\fruitable\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DB8A31A-71A7-4E82-A60E-130DA0C81588}|Fruitable\\Fruitable.csproj|solutionrelative:fruitable\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB8A31A-71A7-4E82-A60E-130DA0C81588}|Fruitable\\Fruitable.csproj|c:\\users\\swesh\\onedrive\\desktop\\fruitables\\fruitable\\fruitable\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DB8A31A-71A7-4E82-A60E-130DA0C81588}|Fruitable\\Fruitable.csproj|solutionrelative:fruitable\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB8A31A-71A7-4E82-A60E-130DA0C81588}|Fruitable\\Fruitable.csproj|c:\\users\\swesh\\onedrive\\desktop\\fruitables\\fruitable\\fruitable\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DB8A31A-71A7-4E82-A60E-130DA0C81588}|Fruitable\\Fruitable.csproj|solutionrelative:fruitable\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB8A31A-71A7-4E82-A60E-130DA0C81588}|Fruitable\\Fruitable.csproj|c:\\users\\swesh\\onedrive\\desktop\\fruitables\\fruitable\\fruitable\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DB8A31A-71A7-4E82-A60E-130DA0C81588}|Fruitable\\Fruitable.csproj|solutionrelative:fruitable\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB8A31A-71A7-4E82-A60E-130DA0C81588}|Fruitable\\Fruitable.csproj|c:\\users\\swesh\\onedrive\\desktop\\fruitables\\fruitable\\fruitable\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DB8A31A-71A7-4E82-A60E-130DA0C81588}|Fruitable\\Fruitable.csproj|solutionrelative:fruitable\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB8A31A-71A7-4E82-A60E-130DA0C81588}|Fruitable\\Fruitable.csproj|c:\\users\\swesh\\onedrive\\desktop\\fruitables\\fruitable\\fruitable\\wwwroot\\html\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DB8A31A-71A7-4E82-A60E-130DA0C81588}|Fruitable\\Fruitable.csproj|solutionrelative:fruitable\\wwwroot\\html\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB8A31A-71A7-4E82-A60E-130DA0C81588}|Fruitable\\Fruitable.csproj|c:\\users\\swesh\\onedrive\\desktop\\fruitables\\fruitable\\fruitable\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1DB8A31A-71A7-4E82-A60E-130DA0C81588}|Fruitable\\Fruitable.csproj|solutionrelative:fruitable\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\swesh\\OneDrive\\Desktop\\Fruitables\\Fruitable\\Fruitable\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Fruitable\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\swesh\\OneDrive\\Desktop\\Fruitables\\Fruitable\\Fruitable\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Fruitable\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T08:36:12.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\swesh\\OneDrive\\Desktop\\Fruitables\\Fruitable\\Fruitable\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Fruitable\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\swesh\\OneDrive\\Desktop\\Fruitables\\Fruitable\\Fruitable\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Fruitable\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T08:35:22.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\swesh\\OneDrive\\Desktop\\Fruitables\\Fruitable\\Fruitable\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Fruitable\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\swesh\\OneDrive\\Desktop\\Fruitables\\Fruitable\\Fruitable\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Fruitable\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T08:35:20.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\swesh\\OneDrive\\Desktop\\Fruitables\\Fruitable\\Fruitable\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Fruitable\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\swesh\\OneDrive\\Desktop\\Fruitables\\Fruitable\\Fruitable\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Fruitable\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T08:35:13.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\swesh\\OneDrive\\Desktop\\Fruitables\\Fruitable\\Fruitable\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Fruitable\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\swesh\\OneDrive\\Desktop\\Fruitables\\Fruitable\\Fruitable\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Fruitable\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABAAAAAAAAAAAAAtwBkAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T08:30:24.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\swesh\\OneDrive\\Desktop\\Fruitables\\Fruitable\\Fruitable\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Fruitable\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\swesh\\OneDrive\\Desktop\\Fruitables\\Fruitable\\Fruitable\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Fruitable\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T08:23:14.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\swesh\\OneDrive\\Desktop\\Fruitables\\Fruitable\\Fruitable\\Program.cs",
+              "RelativeDocumentMoniker": "Fruitable\\Program.cs",
+              "ToolTip": "C:\\Users\\swesh\\OneDrive\\Desktop\\Fruitables\\Fruitable\\Fruitable\\Program.cs",
+              "RelativeToolTip": "Fruitable\\Program.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAAB4AAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T08:27:12.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\swesh\\OneDrive\\Desktop\\Fruitables\\Fruitable\\Fruitable\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Fruitable\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\swesh\\OneDrive\\Desktop\\Fruitables\\Fruitable\\Fruitable\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Fruitable\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAHkEAAAAAAAAAAAowIoEAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T08:25:05.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\swesh\\OneDrive\\Desktop\\Fruitables\\Fruitable\\Fruitable\\wwwroot\\html\\index.html",
+              "RelativeDocumentMoniker": "Fruitable\\wwwroot\\html\\index.html",
+              "ToolTip": "C:\\Users\\swesh\\OneDrive\\Desktop\\Fruitables\\Fruitable\\Fruitable\\wwwroot\\html\\index.html",
+              "RelativeToolTip": "Fruitable\\wwwroot\\html\\index.html",
+              "ViewState": "AQIAAKIEAAAAAAAAAAAswL4EAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-03-05T08:31:29.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\swesh\\OneDrive\\Desktop\\Fruitables\\Fruitable\\Fruitable\\appsettings.json",
+              "RelativeDocumentMoniker": "Fruitable\\appsettings.json",
+              "ToolTip": "C:\\Users\\swesh\\OneDrive\\Desktop\\Fruitables\\Fruitable\\Fruitable\\appsettings.json",
+              "RelativeToolTip": "Fruitable\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-05T08:27:10.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\swesh\\OneDrive\\Desktop\\Fruitables\\Fruitable\\Fruitable\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Fruitable\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\swesh\\OneDrive\\Desktop\\Fruitables\\Fruitable\\Fruitable\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Fruitable\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAowBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T08:23:54.837Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
