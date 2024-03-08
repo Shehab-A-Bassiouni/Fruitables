@@ -5863,11 +5863,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Fruitables\\New folder\\Fruitables\\Fruitables.csproj",
+      "projectUniqueName": "F:\\Fruitables\\Fruitables\\Fruitables.csproj",
       "projectName": "Fruitables",
-      "projectPath": "F:\\Fruitables\\New folder\\Fruitables\\Fruitables.csproj",
+      "projectPath": "F:\\Fruitables\\Fruitables\\Fruitables.csproj",
       "packagesPath": "C:\\Users\\swesh\\.nuget\\packages\\",
-      "outputPath": "F:\\Fruitables\\New folder\\Fruitables\\obj\\",
+      "outputPath": "F:\\Fruitables\\Fruitables\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages"
