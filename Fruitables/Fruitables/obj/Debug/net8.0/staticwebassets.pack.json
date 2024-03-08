@@ -33,6 +33,14 @@
       "PackagePath": "staticwebassets\\img\\banner-fruits.jpg"
     },
     {
+      "Id": "F:\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\img\\banner1.jpg",
+      "PackagePath": "staticwebassets\\img\\banner1.jpg"
+    },
+    {
+      "Id": "F:\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\img\\banner2.jpg",
+      "PackagePath": "staticwebassets\\img\\banner2.jpg"
+    },
+    {
       "Id": "F:\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\img\\best-product-1.jpg",
       "PackagePath": "staticwebassets\\img\\best-product-1.jpg"
     },
@@ -115,6 +123,10 @@
     {
       "Id": "F:\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\img\\single-item.jpg",
       "PackagePath": "staticwebassets\\img\\single-item.jpg"
+    },
+    {
+      "Id": "F:\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\img\\store.jpg",
+      "PackagePath": "staticwebassets\\img\\store.jpg"
     },
     {
       "Id": "F:\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\img\\testimonial-1.jpg",

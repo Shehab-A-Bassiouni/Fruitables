@@ -8,5 +8,10 @@ namespace Fruitables.Controllers
         {
             return View();
         }
-    }
+
+		public IActionResult ShopDetails()
+		{
+			return View();
+		}
+	}
 }
