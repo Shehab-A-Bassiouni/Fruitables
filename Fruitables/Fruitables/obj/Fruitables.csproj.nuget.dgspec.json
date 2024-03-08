@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Fruitables\\Fruitables\\Fruitables\\Fruitables.csproj": {}
+    "C:\\Users\\swesh\\OneDrive\\Desktop\\Fruitables\\Fruitables\\Fruitables.csproj": {}
   },
   "projects": {
-    "F:\\Fruitables\\Fruitables\\Fruitables\\Fruitables.csproj": {
+    "C:\\Users\\swesh\\OneDrive\\Desktop\\Fruitables\\Fruitables\\Fruitables.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Fruitables\\Fruitables\\Fruitables\\Fruitables.csproj",
+        "projectUniqueName": "C:\\Users\\swesh\\OneDrive\\Desktop\\Fruitables\\Fruitables\\Fruitables.csproj",
         "projectName": "Fruitables",
-        "projectPath": "F:\\Fruitables\\Fruitables\\Fruitables\\Fruitables.csproj",
+        "projectPath": "C:\\Users\\swesh\\OneDrive\\Desktop\\Fruitables\\Fruitables\\Fruitables.csproj",
         "packagesPath": "C:\\Users\\swesh\\.nuget\\packages\\",
-        "outputPath": "F:\\Fruitables\\Fruitables\\Fruitables\\obj\\",
+        "outputPath": "C:\\Users\\swesh\\OneDrive\\Desktop\\Fruitables\\Fruitables\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages"
@@ -86,20 +86,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[8.0.2, 8.0.2]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[8.0.2, 8.0.2]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-              "version": "[8.0.2, 8.0.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -109,11 +95,6 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "win-x64": {
-          "#import": []
         }
       }
     }
