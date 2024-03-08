@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\swesh\\OneDrive\\Desktop\\New\\Fruitables\\Fruitables.csproj": {}
+    "F:\\Fruitables\\New folder\\Fruitables\\Fruitables.csproj": {}
   },
   "projects": {
-    "C:\\Users\\swesh\\OneDrive\\Desktop\\New\\Fruitables\\Fruitables.csproj": {
+    "F:\\Fruitables\\New folder\\Fruitables\\Fruitables.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\swesh\\OneDrive\\Desktop\\New\\Fruitables\\Fruitables.csproj",
+        "projectUniqueName": "F:\\Fruitables\\New folder\\Fruitables\\Fruitables.csproj",
         "projectName": "Fruitables",
-        "projectPath": "C:\\Users\\swesh\\OneDrive\\Desktop\\New\\Fruitables\\Fruitables.csproj",
+        "projectPath": "F:\\Fruitables\\New folder\\Fruitables\\Fruitables.csproj",
         "packagesPath": "C:\\Users\\swesh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\swesh\\OneDrive\\Desktop\\New\\Fruitables\\obj\\",
+        "outputPath": "F:\\Fruitables\\New folder\\Fruitables\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages"
