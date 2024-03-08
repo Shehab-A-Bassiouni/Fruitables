@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CKjM9+/o7TrxDOhxngfRNWeCq2l0AIcE9VX6U9N4Dmlv/dVXdRSBzyJgEZuriPUJhZ+dvaln57zge8E1BRKWPA==",
+  "dgSpecHash": "99hE6h0BomjAiRqNysaBpNbubKynAKp8TSP3BhNegeWu2jyYdjUr1ANLShaMIyLC4mmImBtqXcZizvHl1YOybg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\swesh\\OneDrive\\Desktop\\Fruitables\\Fruitables\\Fruitables.csproj",
+  "projectFilePath": "C:\\Users\\swesh\\OneDrive\\Desktop\\ss\\Fruitables\\Fruitables.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\swesh\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\swesh\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
