@@ -1348,6 +1348,19 @@
           }
         }
       },
+      "Microsoft.Web.Deployment/4.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.Web.Delegation.dll": {},
+          "lib/net45/Microsoft.Web.Deployment.Tracing.dll": {},
+          "lib/net45/Microsoft.Web.Deployment.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Web.Delegation.dll": {},
+          "lib/net45/Microsoft.Web.Deployment.Tracing.dll": {},
+          "lib/net45/Microsoft.Web.Deployment.dll": {}
+        }
+      },
       "Microsoft.Win32.SystemEvents/7.0.0": {
         "type": "package",
         "compile": {
@@ -4720,6 +4733,21 @@
         "microsoft.visualstudio.web.codegenerators.mvc.nuspec"
       ]
     },
+    "Microsoft.Web.Deployment/4.0.5": {
+      "sha512": "2oaT2ksEHS6C73zt1WJXDBRpK6RMmXgKIGHCiexSvlt2NAy3i8lqEV2pb6HpuvxCFHrkBNonN7xrysO79pIOtg==",
+      "type": "package",
+      "path": "microsoft.web.deployment/4.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.Web.Delegation.dll",
+        "lib/net45/Microsoft.Web.Deployment.Tracing.dll",
+        "lib/net45/Microsoft.Web.Deployment.dll",
+        "license.txt",
+        "microsoft.web.deployment.4.0.5.nupkg.sha512",
+        "microsoft.web.deployment.nuspec"
+      ]
+    },
     "Microsoft.Win32.SystemEvents/7.0.0": {
       "sha512": "2nXPrhdAyAzir0gLl8Yy8S5Mnm/uBSQQA7jEsILOS1MTyS7DbmV1NgViMtvV1sfCD1ebITpNwb1NIinKeJgUVQ==",
       "type": "package",
@@ -5853,7 +5881,8 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.1"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.1",
+      "Microsoft.Web.Deployment >= 4.0.5"
     ]
   },
   "packageFolders": {
@@ -5863,11 +5892,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\swesh\\OneDrive\\Desktop\\New\\Fruitables\\Fruitables.csproj",
+      "projectUniqueName": "F:\\Fruitables\\Fruitables\\Fruitables.csproj",
       "projectName": "Fruitables",
-      "projectPath": "C:\\Users\\swesh\\OneDrive\\Desktop\\New\\Fruitables\\Fruitables.csproj",
+      "projectPath": "F:\\Fruitables\\Fruitables\\Fruitables.csproj",
       "packagesPath": "C:\\Users\\swesh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\swesh\\OneDrive\\Desktop\\New\\Fruitables\\obj\\",
+      "outputPath": "F:\\Fruitables\\Fruitables\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages"
@@ -5909,6 +5938,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[8.0.1, )"
+          },
+          "Microsoft.Web.Deployment": {
+            "target": "Package",
+            "version": "[4.0.5, )"
           }
         },
         "imports": [
@@ -5933,5 +5966,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Web.Deployment 4.0.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Web.Deployment",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

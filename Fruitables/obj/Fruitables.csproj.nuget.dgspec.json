@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\swesh\\OneDrive\\Desktop\\New\\Fruitables\\Fruitables.csproj": {}
+    "F:\\Fruitables\\Fruitables\\Fruitables.csproj": {}
   },
   "projects": {
-    "C:\\Users\\swesh\\OneDrive\\Desktop\\New\\Fruitables\\Fruitables.csproj": {
+    "F:\\Fruitables\\Fruitables\\Fruitables.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\swesh\\OneDrive\\Desktop\\New\\Fruitables\\Fruitables.csproj",
+        "projectUniqueName": "F:\\Fruitables\\Fruitables\\Fruitables.csproj",
         "projectName": "Fruitables",
-        "projectPath": "C:\\Users\\swesh\\OneDrive\\Desktop\\New\\Fruitables\\Fruitables.csproj",
+        "projectPath": "F:\\Fruitables\\Fruitables\\Fruitables.csproj",
         "packagesPath": "C:\\Users\\swesh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\swesh\\OneDrive\\Desktop\\New\\Fruitables\\obj\\",
+        "outputPath": "F:\\Fruitables\\Fruitables\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages"
@@ -53,6 +53,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.1, )"
+            },
+            "Microsoft.Web.Deployment": {
+              "target": "Package",
+              "version": "[4.0.5, )"
             }
           },
           "imports": [
