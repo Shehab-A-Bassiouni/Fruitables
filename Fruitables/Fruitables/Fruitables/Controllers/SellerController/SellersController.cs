@@ -7,23 +7,23 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Fruitables.Controllers.SellerController
 {
-    public class SellerController : Controller
+    public class SellersController : Controller
     {
 
         private readonly ISellerRepo seller;
-        public SellerController(ISellerRepo _sel)
+        public SellersController(ISellerRepo _sel)
         {
             seller = _sel;
 
         }
         // GET: SellerController
-        public ActionResult Index(int pageNumber = 1)
+        public ActionResult Sellers(int pageNumber = 1)
         {
             return View(seller.getALlshops(pageNumber));
         }
 
         // GET: SellerController/Details/5
-        public ActionResult Details(int id)
+        public ActionResult Products(int id)
         {
             return View();
         }

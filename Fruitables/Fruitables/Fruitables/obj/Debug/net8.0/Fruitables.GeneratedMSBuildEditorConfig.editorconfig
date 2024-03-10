@@ -38,12 +38,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/MVC Project/Fruitables/Fruitables/Fruitables/Fruitables/Views/Seller/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VsbGVyXEluZGV4LmNzaHRtbA==
+[F:/MVC Project/Fruitables/Fruitables/Fruitables/Fruitables/Views/Sellers/Products.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VsbGVyc1xQcm9kdWN0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/MVC Project/Fruitables/Fruitables/Fruitables/Fruitables/Views/Seller/ShopDetail.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VsbGVyXFNob3BEZXRhaWwuY3NodG1s
+[F:/MVC Project/Fruitables/Fruitables/Fruitables/Fruitables/Views/Sellers/Sellers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VsbGVyc1xTZWxsZXJzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/MVC Project/Fruitables/Fruitables/Fruitables/Fruitables/Views/Shared/Error.cshtml]
