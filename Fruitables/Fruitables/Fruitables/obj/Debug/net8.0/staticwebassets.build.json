@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "F3HA4SMqBCmWaCdAKzD/6ofBxL0dylkGQgxGPK2C+Jw=",
+  "Hash": "zoEQhya/WSOnUHBzxHcg5BKua/0vGHTl5pOGjqSsaYo=",
   "Source": "Fruitables",
   "BasePath": "_content/Fruitables",
   "Mode": "Default",
@@ -359,12 +359,12 @@
       "OriginalItemSpec": "wwwroot\\img\\cart-page-header-img.jpg"
     },
     {
-      "Identity": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\img\\Data\\ShopsLogos\\5eer Zman.jpg",
+      "Identity": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\img\\Data\\ShopsLogos\\5eer Zmaan.jpg",
       "SourceId": "Fruitables",
       "SourceType": "Discovered",
       "ContentRoot": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\",
       "BasePath": "_content/Fruitables",
-      "RelativePath": "img/Data/ShopsLogos/5eer Zman.jpg",
+      "RelativePath": "img/Data/ShopsLogos/5eer Zmaan.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -375,7 +375,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\Data\\ShopsLogos\\5eer Zman.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\Data\\ShopsLogos\\5eer Zmaan.jpg"
     },
     {
       "Identity": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\img\\Data\\ShopsLogos\\Carrefour.jpg",
