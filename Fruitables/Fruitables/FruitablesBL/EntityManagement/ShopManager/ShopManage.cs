@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using FruitablesDAL;
@@ -11,19 +13,87 @@ namespace FruitablesBL.EntityManagement.ShopManager
 {
     public static class ShopManage
     {
-        public static List<Seller> allSellers=new();
+        public static List<Seller>? Sellers=new();
+        public static List<Product>? Products = new();
+
+        
         public static void LoadSellers() {
-            using (FRUITABLESContext context = new())
-            {
-                allSellers = context.Sellers.ToList();
+            try {
+                using (FRUITABLESContext context = new())
+                {
+                    Sellers = context.Sellers.ToList();
+                }
             }
+
+            catch (Exception e) { 
+                Debug.WriteLine(e.Message);
+
+            }
+
         }
-        public static List<string> GetShopNames() {
+
+        public static void LoadProducts()
+        {
+            try
+            {
+                using (FRUITABLESContext context = new())
+                {
+                    Products = context.Products.ToList();
+                }
+            }
+            catch (Exception e){
+                Debug.WriteLine(e.Message);
+            }
+            
+        }
+
+        public static List<string>? GetShopNames() {
+            if (Sellers is null)
+                LoadSellers();
+
             List<string> shopNames = new();
-            foreach (Seller seller in allSellers) {
+
+            if (Sellers is null)
+                return null;
+
+            foreach (Seller? seller in Sellers) {
                 shopNames.Add(seller.CommercialName);
             }
             return shopNames;
+        }
+
+        public static List<string>? GetItemsForShop(string shopName) {
+            if (Products is null)
+                LoadProducts();
+
+            List<string>? products = new();
+
+            Seller? oneSeller = Sellers?.FirstOrDefault(seller => seller.CommercialName == shopName);
+
+            if (oneSeller is not null)
+            {
+                if (Products is null)
+                    return null;
+
+                foreach (Product? prod in Products)
+                {
+                    products.Add(prod.Name);
+                    products.Add(prod.Description);
+                    products.Add(prod.Price.ToString());
+                }
+            }
+
+            else {
+                LoadSellers();
+                oneSeller = Sellers?.FirstOrDefault(seller => seller.CommercialName == shopName);
+            }
+
+            if (oneSeller is null)
+                return null;
+
+
+            return products;
+
         }
     }
 }
