@@ -13,3 +13,5 @@ F:\MVC Project\Fruitables\Fruitables\Fruitables\FruitablesDAL\obj\Debug\net8.0\r
 F:\MVC Project\Fruitables\Fruitables\Fruitables\FruitablesDAL\obj\Debug\net8.0\FruitablesDAL.pdb
 F:\MVC Project\Fruitables\Fruitables\Fruitables\FruitablesDAL\obj\Debug\net8.0\FruitablesDAL.genruntimeconfig.cache
 F:\MVC Project\Fruitables\Fruitables\Fruitables\FruitablesDAL\obj\Debug\net8.0\ref\FruitablesDAL.dll
+F:\MVC Project\Fruitables\Fruitables\Fruitables\FruitablesDAL\bin\Debug\net8.0\Config\appsettings.Development.json
+F:\MVC Project\Fruitables\Fruitables\Fruitables\FruitablesDAL\bin\Debug\net8.0\Config\appsettings.json

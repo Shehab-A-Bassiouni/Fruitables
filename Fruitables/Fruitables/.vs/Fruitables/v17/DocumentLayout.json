@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< Updated upstream
   "WorkspaceRootPath": "F:\\ITI 9 Month SD\\16.MVC\\Final Project\\Fruitables\\Fruitables\\",
   "Documents": [
     {
@@ -35,10 +36,15 @@
       "RelativeMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|solutionrelative:fruitables\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
+=======
+  "WorkspaceRootPath": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\",
+  "Documents": [],
+>>>>>>> Stashed changes
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
+<<<<<<< Updated upstream
       "DocumentGroups": [
         {
           "DockedWidth": 200,
@@ -146,6 +152,9 @@
           ]
         }
       ]
+=======
+      "DocumentGroups": []
+>>>>>>> Stashed changes
     }
   ]
 }

@@ -7,9 +7,23 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="..\Config\appsettings.Development.json" Link="Config\appsettings.Development.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Config\appsettings.json" Link="Config\appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="EntityManagement\SellersManager\" />
     <Folder Include="Mapping\" />
-    <Folder Include="EntityManagement\" />
+    <Folder Include="Config\" />
     <Folder Include="ViewModels\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="8.0.0" />
   </ItemGroup>
 
   <ItemGroup>

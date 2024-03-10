@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FruitablesBL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< Updated upstream
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff90c110880b1a7e279dd8bf7c164e53ee0f70ed")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7cc3ed35401f80592638a45a1976511bde9459b1")]
+>>>>>>> Stashed changes
 [assembly: System.Reflection.AssemblyProductAttribute("FruitablesBL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FruitablesBL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

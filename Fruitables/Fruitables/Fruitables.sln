@@ -5,9 +5,15 @@ VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fruitables", "Fruitables\Fruitables.csproj", "{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitablesBL", "FruitablesBL\FruitablesBL.csproj", "{E09553B6-A370-4FFB-8DCD-70D814A89B01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FruitablesBL", "FruitablesBL\FruitablesBL.csproj", "{E09553B6-A370-4FFB-8DCD-70D814A89B01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitablesDAL", "FruitablesDAL\FruitablesDAL.csproj", "{6E085B7B-7A05-4B95-9626-1EEA3667EF22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FruitablesDAL", "FruitablesDAL\FruitablesDAL.csproj", "{6E085B7B-7A05-4B95-9626-1EEA3667EF22}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{5EC0058C-D905-41DE-8F01-2DAF35A1075D}"
+	ProjectSection(SolutionItems) = preProject
+		Config\appsettings.Development.json = Config\appsettings.Development.json
+		Config\appsettings.json = Config\appsettings.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

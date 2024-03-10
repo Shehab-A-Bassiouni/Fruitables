@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "0Fdmtuv85JP6+lU23i+2TZHpgWUbP+R9H3ez4rxlKudYGTVcBVK7dEbb5/B5H0qDvNnvuVYJOKzx0F8tKY7cHA==",
+=======
+  "dgSpecHash": "jRsgiy6KU7rojIOM12QHAxOUJ9OtSgRTFFn5Aov/9DmidMCU04KGtmarOsUvrqDS4+RObXX2PdTHX2GU51ih6g==",
+>>>>>>> Stashed changes
   "success": true,
   "projectFilePath": "F:\\ITI 9 Month SD\\16.MVC\\Final Project\\Fruitables\\Fruitables\\FruitablesDAL\\FruitablesDAL.csproj",
   "expectedPackageFiles": [

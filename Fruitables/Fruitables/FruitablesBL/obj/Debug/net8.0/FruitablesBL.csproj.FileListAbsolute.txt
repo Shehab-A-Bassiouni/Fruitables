@@ -14,3 +14,5 @@ F:\MVC Project\Fruitables\Fruitables\Fruitables\FruitablesBL\obj\Debug\net8.0\Fr
 F:\MVC Project\Fruitables\Fruitables\Fruitables\FruitablesBL\obj\Debug\net8.0\refint\FruitablesBL.dll
 F:\MVC Project\Fruitables\Fruitables\Fruitables\FruitablesBL\obj\Debug\net8.0\FruitablesBL.pdb
 F:\MVC Project\Fruitables\Fruitables\Fruitables\FruitablesBL\obj\Debug\net8.0\ref\FruitablesBL.dll
+F:\MVC Project\Fruitables\Fruitables\Fruitables\FruitablesBL\bin\Debug\net8.0\Config\appsettings.Development.json
+F:\MVC Project\Fruitables\Fruitables\Fruitables\FruitablesBL\bin\Debug\net8.0\Config\appsettings.json

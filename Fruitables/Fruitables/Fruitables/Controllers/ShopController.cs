@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Fruitables.Models.Shop;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 
 namespace Fruitables.Controllers
 {
@@ -6,7 +8,8 @@ namespace Fruitables.Controllers
     {
         public IActionResult Shop()
         {
-            return View();
+            Shop shops = new();
+            return View(shops.GetShopsNames());
         }
 
         public IActionResult ShopDetail()
