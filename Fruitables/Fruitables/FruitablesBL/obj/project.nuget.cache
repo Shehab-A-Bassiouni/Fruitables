@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MmdsKSPLAbejyG4+p6ZCk4ZNf/flh1YdsUlsv0E2AOjMzWF5yqJBZ+0pBFOJdrZQ2YKEIV4xo8aMEwdSlH2+xg==",
+  "dgSpecHash": "x4OsWuj8XvoDyYUMVqDs/Ivva3OWJxyKhhQouFY/vHyJcmdRKsSDf54ixF285hI0YNi0PGYxUwoZCkI8bP1x1A==",
   "success": true,
   "projectFilePath": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesBL\\FruitablesBL.csproj",
   "expectedPackageFiles": [
@@ -17,6 +17,7 @@
     "C:\\Users\\swesh\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\8.0.2\\microsoft.entityframeworkcore.sqlserver.8.0.2.nupkg.sha512",
     "C:\\Users\\swesh\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\swesh\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
+    "C:\\Users\\swesh\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\swesh\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\swesh\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\swesh\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",

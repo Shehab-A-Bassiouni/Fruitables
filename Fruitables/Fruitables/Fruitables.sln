@@ -9,11 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FruitablesBL", "FruitablesB
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FruitablesDAL", "FruitablesDAL\FruitablesDAL.csproj", "{6E085B7B-7A05-4B95-9626-1EEA3667EF22}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{5EC0058C-D905-41DE-8F01-2DAF35A1075D}"
-	ProjectSection(SolutionItems) = preProject
-		Config\appsettings.Development.json = Config\appsettings.Development.json
-		Config\appsettings.json = Config\appsettings.json
-	EndProjectSection
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{DA8A625D-AF1D-4CE7-8BA4-15B992D9E093}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -23,7 +23,7 @@ namespace FruitablesBL.EntityManagement.Repository
             
                 List<SellerVM> Allseleers = new List<SellerVM>();
 
-                foreach (var Sel in DbContext.Sellers.Take(2))
+                foreach (var Sel in DbContext.Sellers.Take(20))
                 {
                     Allseleers.Add(new SellerVM()
                     {
@@ -44,7 +44,7 @@ namespace FruitablesBL.EntityManagement.Repository
             int skipped = (pageNumber - 1) * itemsPerPage;
             List<SellerVM> Allseleers = new List<SellerVM>();
 
-            foreach (var Sel in DbContext.Sellers.Skip(skipped).Take(2))
+            foreach (var Sel in DbContext.Sellers.Skip(skipped).Take(20))
             {
                 Allseleers.Add(new SellerVM()
                 {
