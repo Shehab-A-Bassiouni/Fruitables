@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\FruitablesDAL.csproj": {}
+    "D:\\ITI\\New Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\FruitablesDAL.csproj": {}
   },
   "projects": {
-    "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\FruitablesDAL.csproj": {
+    "D:\\ITI\\New Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\FruitablesDAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\FruitablesDAL.csproj",
+        "projectUniqueName": "D:\\ITI\\New Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\FruitablesDAL.csproj",
         "projectName": "FruitablesDAL",
-        "projectPath": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\FruitablesDAL.csproj",
-        "packagesPath": "C:\\Users\\swesh\\.nuget\\packages\\",
-        "outputPath": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\obj\\",
+        "projectPath": "D:\\ITI\\New Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\FruitablesDAL.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "D:\\ITI\\New Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\swesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -85,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
