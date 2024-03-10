@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Fruitables.Controllers
+namespace Fruitables.Controllers.HomeController
 {
     public class HomeController : Controller
     {
