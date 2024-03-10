@@ -19,7 +19,6 @@
     <Folder Include="EntityManagement\SellersManager\" />
     <Folder Include="Mapping\" />
     <Folder Include="Config\" />
-    <Folder Include="ViewModels\" />
   </ItemGroup>
 
   <ItemGroup>

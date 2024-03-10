@@ -8,13 +8,8 @@ namespace Fruitables.Models.Shop
             BL_ShopManager.LoadProducts();
         }
 
-        public List<List<string>>? GetShops() {
+        public List<List<string>> GetShops() {
             return BL_ShopManager.GetShops();
-        }
-
-        public List<List<string>>? GetItems(string shopName)
-        {
-            return BL_ShopManager.GetProductsData(shopName);
         }
     }
 }

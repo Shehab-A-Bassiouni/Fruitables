@@ -1,3 +1,8 @@
+using FruitablesBL.EntityManagement.Repository;
+using FruitablesBL.EntityManagement.Interface;
+using FruitablesDAL.Models;
+using Microsoft.EntityFrameworkCore;
+
 namespace Fruitables
 {
     public class Program
@@ -8,6 +13,11 @@ namespace Fruitables
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddScoped<ISellerRepo, SellerRepo>();
+
+            builder.Services.AddDbContext<FRUITABLESContext>(op =>
+             op.UseSqlServer(builder.Configuration.GetConnectionString("myConnection"))
+             );
 
             var app = builder.Build();
 

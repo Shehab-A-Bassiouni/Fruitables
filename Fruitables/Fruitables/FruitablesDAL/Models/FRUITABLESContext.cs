@@ -334,9 +334,6 @@ public partial class FRUITABLESContext : DbContext
                 .IsRequired()
                 .HasMaxLength(255)
                 .HasColumnName("description");
-            entity.Property(e => e.Image)
-                .HasMaxLength(50)
-                .HasColumnName("image");
             entity.Property(e => e.Name)
                 .IsRequired()
                 .HasMaxLength(50)
