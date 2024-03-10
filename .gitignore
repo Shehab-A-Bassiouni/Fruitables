@@ -2,3 +2,6 @@
 .github
 Fruitables\Fruitables\.vs
 Fruitables\.git
+*.dll
+*.dll
+Fruitables/Fruitables/Fruitables/bin/Debug/net8.0/bn-BD/Humanizer.resources.dll
