@@ -15,8 +15,6 @@ public partial class Seller
 
     public string Address { get; set; }
 
-    public string Logo { get; set; }
-
     public virtual ICollection<Product> Products { get; set; } = new List<Product>();
 
     public virtual User SellerNavigation { get; set; }

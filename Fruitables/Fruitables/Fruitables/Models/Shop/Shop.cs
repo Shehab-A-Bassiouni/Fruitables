@@ -5,11 +5,9 @@ namespace Fruitables.Models.Shop
     {
         public Shop() {
             BL_ShopManager.LoadSellers();
-            BL_ShopManager.LoadProducts();
-
         }
 
-        public List<List<string>>? GetShopsNames() {
+        public List<string> GetShopsNames() {
             return BL_ShopManager.GetShopNames();
         }
     }

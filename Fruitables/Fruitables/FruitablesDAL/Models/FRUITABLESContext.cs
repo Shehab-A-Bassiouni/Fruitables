@@ -3,11 +3,14 @@
 using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 namespace FruitablesDAL.Models;
 
 public partial class FRUITABLESContext : DbContext
 {
+    private static readonly IConfiguration _configuration;
+    private string connectionString = _configuration.GetConnectionString("connectionString");
     public FRUITABLESContext()
     {
     }
@@ -15,6 +18,7 @@ public partial class FRUITABLESContext : DbContext
     public FRUITABLESContext(DbContextOptions<FRUITABLESContext> options)
         : base(options)
     {
+
     }
 
     public virtual DbSet<Admin> Admins { get; set; }
@@ -48,9 +52,8 @@ public partial class FRUITABLESContext : DbContext
     public virtual DbSet<Voucher> Vouchers { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Data Source=.;Initial Catalog=FRUITABLES;Integrated Security=True;Encrypt=False");
-
+        => optionsBuilder.UseSqlServer("Server=.;Database=FRUITABLES;Trusted_Connection=True;TrustServerCertificate=True;");
+   
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Admin>(entity =>
@@ -392,9 +395,6 @@ public partial class FRUITABLESContext : DbContext
                 .IsRequired()
                 .HasMaxLength(50)
                 .HasColumnName("commercialName");
-            entity.Property(e => e.Logo)
-                .HasMaxLength(50)
-                .HasColumnName("logo");
             entity.Property(e => e.Rate)
                 .HasColumnType("decimal(2, 1)")
                 .HasColumnName("rate");

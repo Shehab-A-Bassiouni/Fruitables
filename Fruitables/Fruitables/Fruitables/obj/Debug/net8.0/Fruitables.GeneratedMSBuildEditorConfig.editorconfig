@@ -17,55 +17,55 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Fruitables
 build_property.RootNamespace = Fruitables
-build_property.ProjectDir = F:\MVC Project\Fruitables\Fruitables\Fruitables\Fruitables\
+build_property.ProjectDir = D:\ITI\New Project\Fruitables\Fruitables\Fruitables\Fruitables\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = F:\MVC Project\Fruitables\Fruitables\Fruitables\Fruitables
+build_property.MSBuildProjectDirectory = D:\ITI\New Project\Fruitables\Fruitables\Fruitables\Fruitables
 build_property._RazorSourceGeneratorDebug = 
 
-[F:/MVC Project/Fruitables/Fruitables/Fruitables/Fruitables/Views/Contact/Contact.cshtml]
+[D:/ITI/New Project/Fruitables/Fruitables/Fruitables/Fruitables/Views/Contact/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/MVC Project/Fruitables/Fruitables/Fruitables/Fruitables/Views/Home/Index.cshtml]
+[D:/ITI/New Project/Fruitables/Fruitables/Fruitables/Fruitables/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/MVC Project/Fruitables/Fruitables/Fruitables/Fruitables/Views/Home/Privacy.cshtml]
+[D:/ITI/New Project/Fruitables/Fruitables/Fruitables/Fruitables/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/MVC Project/Fruitables/Fruitables/Fruitables/Fruitables/Views/Shared/Error.cshtml]
+[D:/ITI/New Project/Fruitables/Fruitables/Fruitables/Fruitables/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/MVC Project/Fruitables/Fruitables/Fruitables/Fruitables/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/ITI/New Project/Fruitables/Fruitables/Fruitables/Fruitables/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/MVC Project/Fruitables/Fruitables/Fruitables/Fruitables/Views/Shop/Shop.cshtml]
+[D:/ITI/New Project/Fruitables/Fruitables/Fruitables/Fruitables/Views/Shop/Shop.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxTaG9wLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/MVC Project/Fruitables/Fruitables/Fruitables/Fruitables/Views/Shop/ShopDetail.cshtml]
+[D:/ITI/New Project/Fruitables/Fruitables/Fruitables/Fruitables/Views/Shop/ShopDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxTaG9wRGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/MVC Project/Fruitables/Fruitables/Fruitables/Fruitables/Views/Testimonial/Testimonial.cshtml]
+[D:/ITI/New Project/Fruitables/Fruitables/Fruitables/Fruitables/Views/Testimonial/Testimonial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGltb25pYWxcVGVzdGltb25pYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/MVC Project/Fruitables/Fruitables/Fruitables/Fruitables/Views/_ViewImports.cshtml]
+[D:/ITI/New Project/Fruitables/Fruitables/Fruitables/Fruitables/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/MVC Project/Fruitables/Fruitables/Fruitables/Fruitables/Views/_ViewStart.cshtml]
+[D:/ITI/New Project/Fruitables/Fruitables/Fruitables/Fruitables/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/MVC Project/Fruitables/Fruitables/Fruitables/Fruitables/Views/Shared/_Layout.cshtml]
+[D:/ITI/New Project/Fruitables/Fruitables/Fruitables/Fruitables/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ydjicuvvup
