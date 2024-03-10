@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|f:\\mvc project\\fruitables\\fruitables\\fruitables\\fruitables\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|solutionrelative:fruitables\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{6E085B7B-7A05-4B95-9626-1EEA3667EF22}|FruitablesDAL\\FruitablesDAL.csproj|f:\\mvc project\\fruitables\\fruitables\\fruitables\\fruitablesdal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E085B7B-7A05-4B95-9626-1EEA3667EF22}|FruitablesDAL\\FruitablesDAL.csproj|solutionrelative:fruitablesdal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|f:\\mvc project\\fruitables\\fruitables\\fruitables\\fruitables\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{6E085B7B-7A05-4B95-9626-1EEA3667EF22}|FruitablesDAL\\FruitablesDAL.csproj|f:\\mvc project\\fruitables\\fruitables\\fruitables\\fruitablesdal\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E085B7B-7A05-4B95-9626-1EEA3667EF22}|FruitablesDAL\\FruitablesDAL.csproj|solutionrelative:fruitablesdal\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E085B7B-7A05-4B95-9626-1EEA3667EF22}|FruitablesDAL\\FruitablesDAL.csproj|f:\\mvc project\\fruitables\\fruitables\\fruitables\\fruitablesdal\\models\\fruitablescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E085B7B-7A05-4B95-9626-1EEA3667EF22}|FruitablesDAL\\FruitablesDAL.csproj|solutionrelative:fruitablesdal\\models\\fruitablescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E085B7B-7A05-4B95-9626-1EEA3667EF22}|FruitablesDAL\\FruitablesDAL.csproj|f:\\mvc project\\fruitables\\fruitables\\fruitables\\fruitablesdal\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{6E085B7B-7A05-4B95-9626-1EEA3667EF22}|FruitablesDAL\\FruitablesDAL.csproj|solutionrelative:fruitablesdal\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\fruitables\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|solutionrelative:fruitables\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\fruitables\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|solutionrelative:fruitables\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\fruitables\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|solutionrelative:fruitables\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,37 +38,99 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\Class1.cs",
+              "RelativeDocumentMoniker": "FruitablesDAL\\Class1.cs",
+              "ToolTip": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\Class1.cs",
+              "RelativeToolTip": "FruitablesDAL\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T03:33:18.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "FruitablesDAL\\Models\\Admin.cs",
+              "ToolTip": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\Models\\Admin.cs",
+              "RelativeToolTip": "FruitablesDAL\\Models\\Admin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T03:32:32.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FRUITABLESContext.cs",
+              "DocumentMoniker": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\Models\\FRUITABLESContext.cs",
+              "RelativeDocumentMoniker": "FruitablesDAL\\Models\\FRUITABLESContext.cs",
+              "ToolTip": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\Models\\FRUITABLESContext.cs",
+              "RelativeToolTip": "FruitablesDAL\\Models\\FRUITABLESContext.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAADwvwwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T03:30:33.615Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "App.config",
+              "DocumentMoniker": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\App.config",
+              "RelativeDocumentMoniker": "FruitablesDAL\\App.config",
+              "ToolTip": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\App.config",
+              "RelativeToolTip": "FruitablesDAL\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-03-10T03:20:46.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\Program.cs",
+              "RelativeDocumentMoniker": "Fruitables\\Program.cs",
+              "ToolTip": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\Program.cs",
+              "RelativeToolTip": "Fruitables\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T03:19:49.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "launchSettings.json",
               "DocumentMoniker": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Fruitables\\Properties\\launchSettings.json",
               "ToolTip": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\Properties\\launchSettings.json",
               "RelativeToolTip": "Fruitables\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-09T13:00:30.904Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-09T13:00:30.904Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\appsettings.json",
               "RelativeDocumentMoniker": "Fruitables\\appsettings.json",
               "ToolTip": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\appsettings.json",
               "RelativeToolTip": "Fruitables\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-09T13:00:23.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-09T13:00:23.538Z"
             }
           ]
         }
