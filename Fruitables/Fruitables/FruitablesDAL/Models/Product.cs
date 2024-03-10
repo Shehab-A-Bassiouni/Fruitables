@@ -25,6 +25,8 @@ public partial class Product
 
     public int SellerId { get; set; }
 
+    public string Image { get; set; }
+
     public virtual Category Category { get; set; }
 
     public virtual ICollection<FeedBack> FeedBacks { get; set; } = new List<FeedBack>();
