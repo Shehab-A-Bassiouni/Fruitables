@@ -47,19 +47,25 @@ namespace FruitablesBL.EntityManagement.ShopManager
             
         }
 
-        public static List<string>? GetShopNames() {
+        public static List<List<string>>? GetShopNames() {
             if (Sellers is null)
                 LoadSellers();
 
-            List<string> shopNames = new();
+
+            List<List<string>> shops = new();
 
             if (Sellers is null)
                 return null;
 
             foreach (Seller? seller in Sellers) {
-                shopNames.Add(seller.CommercialName);
+                List<string> temp = new();
+                temp.Add(seller.Logo); 
+                temp.Add(seller.CommercialName);
+                temp.Add(seller.Address);
+                shops.Add(temp);
             }
-            return shopNames;
+
+            return shops;
         }
 
         public static List<string>? GetItemsForShop(string shopName) {
