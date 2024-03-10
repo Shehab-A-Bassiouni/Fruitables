@@ -17,7 +17,7 @@ public partial class Customer
 
     public virtual ICollection<CustomersVoucher> CustomersVouchers { get; set; } = new List<CustomersVoucher>();
 
-    public virtual FeedBack FeedBack { get; set; }
+    public virtual ICollection<FeedBack> FeedBacks { get; set; } = new List<FeedBack>();
 
     public virtual ICollection<Order> Orders { get; set; } = new List<Order>();
 

@@ -21,7 +21,7 @@ public partial class FeedBack
 
     public int CustomerId { get; set; }
 
-    public virtual Customer Feedback { get; set; }
+    public virtual Customer Customer { get; set; }
 
     public virtual Product Product { get; set; }
 }

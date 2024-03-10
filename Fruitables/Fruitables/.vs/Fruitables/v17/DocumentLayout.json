@@ -1,33 +1,49 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\",
+  "WorkspaceRootPath": "F:\\ITI 9 Month SD\\16.MVC\\Final Project2\\Fruitables\\Fruitables\\Fruitables\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6E085B7B-7A05-4B95-9626-1EEA3667EF22}|FruitablesDAL\\FruitablesDAL.csproj|f:\\mvc project\\fruitables\\fruitables\\fruitables\\fruitablesdal\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E085B7B-7A05-4B95-9626-1EEA3667EF22}|FruitablesDAL\\FruitablesDAL.csproj|solutionrelative:fruitablesdal\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E085B7B-7A05-4B95-9626-1EEA3667EF22}|FruitablesDAL\\FruitablesDAL.csproj|F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\fruitablesdal\\models\\cardsdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E085B7B-7A05-4B95-9626-1EEA3667EF22}|FruitablesDAL\\FruitablesDAL.csproj|solutionrelative:fruitablesdal\\models\\cardsdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E085B7B-7A05-4B95-9626-1EEA3667EF22}|FruitablesDAL\\FruitablesDAL.csproj|F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\fruitablesdal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E085B7B-7A05-4B95-9626-1EEA3667EF22}|FruitablesDAL\\FruitablesDAL.csproj|solutionrelative:fruitablesdal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E085B7B-7A05-4B95-9626-1EEA3667EF22}|FruitablesDAL\\FruitablesDAL.csproj|F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\fruitablesdal\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E085B7B-7A05-4B95-9626-1EEA3667EF22}|FruitablesDAL\\FruitablesDAL.csproj|solutionrelative:fruitablesdal\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E085B7B-7A05-4B95-9626-1EEA3667EF22}|FruitablesDAL\\FruitablesDAL.csproj|F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\fruitablesdal\\models\\fruitablescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6E085B7B-7A05-4B95-9626-1EEA3667EF22}|FruitablesDAL\\FruitablesDAL.csproj|F:\\ITI 9 Month SD\\16.MVC\\Final Project2\\Fruitables\\Fruitables\\Fruitables\\fruitablesdal\\models\\fruitablescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E085B7B-7A05-4B95-9626-1EEA3667EF22}|FruitablesDAL\\FruitablesDAL.csproj|solutionrelative:fruitablesdal\\models\\fruitablescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\fruitables\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6E085B7B-7A05-4B95-9626-1EEA3667EF22}|FruitablesDAL\\FruitablesDAL.csproj|f:\\iti 9 month sd\\16.mvc\\final project2\\fruitables\\fruitables\\fruitables\\fruitablesdal\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E085B7B-7A05-4B95-9626-1EEA3667EF22}|FruitablesDAL\\FruitablesDAL.csproj|solutionrelative:fruitablesdal\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E085B7B-7A05-4B95-9626-1EEA3667EF22}|FruitablesDAL\\FruitablesDAL.csproj|f:\\iti 9 month sd\\16.mvc\\final project2\\fruitables\\fruitables\\fruitables\\fruitablesdal\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E085B7B-7A05-4B95-9626-1EEA3667EF22}|FruitablesDAL\\FruitablesDAL.csproj|solutionrelative:fruitablesdal\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E085B7B-7A05-4B95-9626-1EEA3667EF22}|FruitablesDAL\\FruitablesDAL.csproj|f:\\iti 9 month sd\\16.mvc\\final project2\\fruitables\\fruitables\\fruitables\\fruitablesdal\\fruitablesdal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6E085B7B-7A05-4B95-9626-1EEA3667EF22}|FruitablesDAL\\FruitablesDAL.csproj|solutionrelative:fruitablesdal\\fruitablesdal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E085B7B-7A05-4B95-9626-1EEA3667EF22}|FruitablesDAL\\FruitablesDAL.csproj|f:\\iti 9 month sd\\16.mvc\\final project2\\fruitables\\fruitables\\fruitables\\fruitablesdal\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E085B7B-7A05-4B95-9626-1EEA3667EF22}|FruitablesDAL\\FruitablesDAL.csproj|solutionrelative:fruitablesdal\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E085B7B-7A05-4B95-9626-1EEA3667EF22}|FruitablesDAL\\FruitablesDAL.csproj|F:\\ITI 9 Month SD\\16.MVC\\Final Project2\\Fruitables\\Fruitables\\Fruitables\\fruitablesdal\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E085B7B-7A05-4B95-9626-1EEA3667EF22}|FruitablesDAL\\FruitablesDAL.csproj|solutionrelative:fruitablesdal\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E085B7B-7A05-4B95-9626-1EEA3667EF22}|FruitablesDAL\\FruitablesDAL.csproj|F:\\ITI 9 Month SD\\16.MVC\\Final Project2\\Fruitables\\Fruitables\\Fruitables\\fruitablesdal\\models\\cardsdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E085B7B-7A05-4B95-9626-1EEA3667EF22}|FruitablesDAL\\FruitablesDAL.csproj|solutionrelative:fruitablesdal\\models\\cardsdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E085B7B-7A05-4B95-9626-1EEA3667EF22}|FruitablesDAL\\FruitablesDAL.csproj|F:\\ITI 9 Month SD\\16.MVC\\Final Project2\\Fruitables\\Fruitables\\Fruitables\\fruitablesdal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E085B7B-7A05-4B95-9626-1EEA3667EF22}|FruitablesDAL\\FruitablesDAL.csproj|solutionrelative:fruitablesdal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E085B7B-7A05-4B95-9626-1EEA3667EF22}|FruitablesDAL\\FruitablesDAL.csproj|F:\\ITI 9 Month SD\\16.MVC\\Final Project2\\Fruitables\\Fruitables\\Fruitables\\fruitablesdal\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E085B7B-7A05-4B95-9626-1EEA3667EF22}|FruitablesDAL\\FruitablesDAL.csproj|solutionrelative:fruitablesdal\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|F:\\ITI 9 Month SD\\16.MVC\\Final Project2\\Fruitables\\Fruitables\\Fruitables\\fruitables\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|solutionrelative:fruitables\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\fruitables\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|F:\\ITI 9 Month SD\\16.MVC\\Final Project2\\Fruitables\\Fruitables\\Fruitables\\fruitables\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|solutionrelative:fruitables\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
@@ -41,15 +57,119 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Item.cs",
+              "DocumentMoniker": "F:\\ITI 9 Month SD\\16.MVC\\Final Project2\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "FruitablesDAL\\Models\\Item.cs",
+              "ToolTip": "F:\\ITI 9 Month SD\\16.MVC\\Final Project2\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\Models\\Item.cs",
+              "RelativeToolTip": "FruitablesDAL\\Models\\Item.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T07:43:29.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "F:\\ITI 9 Month SD\\16.MVC\\Final Project2\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "FruitablesDAL\\Models\\Customer.cs",
+              "ToolTip": "F:\\ITI 9 Month SD\\16.MVC\\Final Project2\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\Models\\Customer.cs",
+              "RelativeToolTip": "FruitablesDAL\\Models\\Customer.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T07:42:15.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FeedBack.cs",
+              "DocumentMoniker": "F:\\ITI 9 Month SD\\16.MVC\\Final Project2\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\Models\\FeedBack.cs",
+              "RelativeDocumentMoniker": "FruitablesDAL\\Models\\FeedBack.cs",
+              "ToolTip": "F:\\ITI 9 Month SD\\16.MVC\\Final Project2\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\Models\\FeedBack.cs",
+              "RelativeToolTip": "FruitablesDAL\\Models\\FeedBack.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T07:42:10.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FruitablesDAL.csproj",
+              "DocumentMoniker": "F:\\ITI 9 Month SD\\16.MVC\\Final Project2\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\FruitablesDAL.csproj",
+              "RelativeDocumentMoniker": "FruitablesDAL\\FruitablesDAL.csproj",
+              "ToolTip": "F:\\ITI 9 Month SD\\16.MVC\\Final Project2\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\FruitablesDAL.csproj",
+              "RelativeToolTip": "FruitablesDAL\\FruitablesDAL.csproj",
+              "ViewState": "AQIAAB0AAADY1MJKTy0awCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-10T07:21:35.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "F:\\ITI 9 Month SD\\16.MVC\\Final Project2\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\Class1.cs",
+              "RelativeDocumentMoniker": "FruitablesDAL\\Class1.cs",
+              "ToolTip": "F:\\ITI 9 Month SD\\16.MVC\\Final Project2\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\Class1.cs",
+              "RelativeToolTip": "FruitablesDAL\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T07:01:11.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "F:\\ITI 9 Month SD\\16.MVC\\Final Project2\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "FruitablesDAL\\Models\\Admin.cs",
+              "ToolTip": "F:\\ITI 9 Month SD\\16.MVC\\Final Project2\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\Models\\Admin.cs",
+              "RelativeToolTip": "FruitablesDAL\\Models\\Admin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T07:01:11.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FRUITABLESContext.cs",
+              "DocumentMoniker": "F:\\ITI 9 Month SD\\16.MVC\\Final Project2\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\Models\\FRUITABLESContext.cs",
+              "RelativeDocumentMoniker": "FruitablesDAL\\Models\\FRUITABLESContext.cs",
+              "ToolTip": "F:\\ITI 9 Month SD\\16.MVC\\Final Project2\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\Models\\FRUITABLESContext.cs",
+              "RelativeToolTip": "FruitablesDAL\\Models\\FRUITABLESContext.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAAAEEAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T07:01:11.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CardsDetail.cs",
+              "DocumentMoniker": "F:\\ITI 9 Month SD\\16.MVC\\Final Project2\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\Models\\CardsDetail.cs",
+              "RelativeDocumentMoniker": "FruitablesDAL\\Models\\CardsDetail.cs",
+              "ToolTip": "F:\\ITI 9 Month SD\\16.MVC\\Final Project2\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\Models\\CardsDetail.cs",
+              "RelativeToolTip": "FruitablesDAL\\Models\\CardsDetail.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAAA8AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T07:01:11.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Category.cs",
-              "DocumentMoniker": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\Models\\Category.cs",
+              "DocumentMoniker": "F:\\ITI 9 Month SD\\16.MVC\\Final Project2\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\Models\\Category.cs",
               "RelativeDocumentMoniker": "FruitablesDAL\\Models\\Category.cs",
-              "ToolTip": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\Models\\Category.cs",
+              "ToolTip": "F:\\ITI 9 Month SD\\16.MVC\\Final Project2\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\Models\\Category.cs",
               "RelativeToolTip": "FruitablesDAL\\Models\\Category.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -58,87 +178,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CardsDetail.cs",
-              "DocumentMoniker": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\Models\\CardsDetail.cs",
-              "RelativeDocumentMoniker": "FruitablesDAL\\Models\\CardsDetail.cs",
-              "ToolTip": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\Models\\CardsDetail.cs",
-              "RelativeToolTip": "FruitablesDAL\\Models\\CardsDetail.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAAA8AAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T07:01:11.589Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\Class1.cs",
-              "RelativeDocumentMoniker": "FruitablesDAL\\Class1.cs",
-              "ToolTip": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\Class1.cs",
-              "RelativeToolTip": "FruitablesDAL\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T07:01:11.591Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Admin.cs",
-              "DocumentMoniker": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\Models\\Admin.cs",
-              "RelativeDocumentMoniker": "FruitablesDAL\\Models\\Admin.cs",
-              "ToolTip": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\Models\\Admin.cs",
-              "RelativeToolTip": "FruitablesDAL\\Models\\Admin.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T07:01:11.591Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FRUITABLESContext.cs",
-              "DocumentMoniker": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\Models\\FRUITABLESContext.cs",
-              "RelativeDocumentMoniker": "FruitablesDAL\\Models\\FRUITABLESContext.cs",
-              "ToolTip": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\Models\\FRUITABLESContext.cs",
-              "RelativeToolTip": "FruitablesDAL\\Models\\FRUITABLESContext.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAADwvwwAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T07:01:11.592Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
-              "DocumentMoniker": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\Program.cs",
+              "DocumentMoniker": "F:\\ITI 9 Month SD\\16.MVC\\Final Project2\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\Program.cs",
               "RelativeDocumentMoniker": "Fruitables\\Program.cs",
-              "ToolTip": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\Program.cs",
+              "ToolTip": "F:\\ITI 9 Month SD\\16.MVC\\Final Project2\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\Program.cs",
               "RelativeToolTip": "Fruitables\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T07:01:11.592Z"
+              "WhenOpened": "2024-03-10T07:01:11.592Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\Properties\\launchSettings.json",
+              "DocumentMoniker": "F:\\ITI 9 Month SD\\16.MVC\\Final Project2\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Fruitables\\Properties\\launchSettings.json",
-              "ToolTip": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\Properties\\launchSettings.json",
+              "ToolTip": "F:\\ITI 9 Month SD\\16.MVC\\Final Project2\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\Properties\\launchSettings.json",
               "RelativeToolTip": "Fruitables\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-10T07:01:11.593Z"
+              "WhenOpened": "2024-03-10T07:01:11.593Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "F:\\ITI 9 Month SD\\16.MVC\\Final Project\\Fruitables\\Fruitables\\Fruitables\\appsettings.json",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\ITI 9 Month SD\\16.MVC\\Final Project\\Fruitables\\Fruitables\\Fruitables\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Final Project\\Fruitables\\Fruitables\\Fruitables\\appsettings.json",
               "ToolTip": "F:\\ITI 9 Month SD\\16.MVC\\Final Project\\Fruitables\\Fruitables\\Fruitables\\appsettings.json",
-              "RelativeToolTip": "..\\..\\..\\..\\ITI 9 Month SD\\16.MVC\\Final Project\\Fruitables\\Fruitables\\Fruitables\\appsettings.json",
+              "RelativeToolTip": "..\\..\\..\\..\\Final Project\\Fruitables\\Fruitables\\Fruitables\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-10T07:01:11.594Z"
+              "WhenOpened": "2024-03-10T07:01:11.594Z",
+              "EditorCaption": ""
             }
           ]
         }

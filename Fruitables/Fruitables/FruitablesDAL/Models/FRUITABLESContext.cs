@@ -18,7 +18,7 @@ public partial class FRUITABLESContext : DbContext
     public FRUITABLESContext(DbContextOptions<FRUITABLESContext> options)
         : base(options)
     {
-        
+
     }
 
     public virtual DbSet<Admin> Admins { get; set; }
@@ -53,12 +53,13 @@ public partial class FRUITABLESContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         => optionsBuilder.UseSqlServer("Server=.;Database=FRUITABLES;Trusted_Connection=True;TrustServerCertificate=True;");
-
+   
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Admin>(entity =>
         {
             entity.HasKey(e => e.AdminId).HasName("PK__Admins__1788CC4C56A09165");
+
             entity.Property(e => e.AdminId)
                 .ValueGeneratedNever()
                 .HasColumnName("adminID");
@@ -151,9 +152,7 @@ public partial class FRUITABLESContext : DbContext
         {
             entity.HasKey(e => e.FeedbackId).HasName("PK__FeedBack__2613FD2466EB5584");
 
-            entity.Property(e => e.FeedbackId)
-                .ValueGeneratedOnAdd()
-                .HasColumnName("feedbackID");
+            entity.Property(e => e.FeedbackId).HasColumnName("feedbackID");
             entity.Property(e => e.CustomerId).HasColumnName("customerID");
             entity.Property(e => e.Date)
                 .HasColumnType("datetime")
@@ -168,8 +167,8 @@ public partial class FRUITABLESContext : DbContext
                 .HasMaxLength(255)
                 .HasColumnName("review");
 
-            entity.HasOne(d => d.Feedback).WithOne(p => p.FeedBack)
-                .HasForeignKey<FeedBack>(d => d.FeedbackId)
+            entity.HasOne(d => d.Customer).WithMany(p => p.FeedBacks)
+                .HasForeignKey(d => d.CustomerId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_FeedBacks_Customers");
 
