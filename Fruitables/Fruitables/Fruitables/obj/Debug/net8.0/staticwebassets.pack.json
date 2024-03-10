@@ -21,16 +21,24 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\img\\Data\\ShopsLogos\\5eer Zmaan.jpg",
-      "PackagePath": "staticwebassets\\img\\Data\\ShopsLogos\\5eer Zmaan.jpg"
-    },
-    {
       "Id": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\img\\Data\\ShopsLogos\\Carrefour.jpg",
       "PackagePath": "staticwebassets\\img\\Data\\ShopsLogos\\Carrefour.jpg"
     },
     {
-      "Id": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\img\\Data\\ShopsLogos\\Gomla Market.jpg",
-      "PackagePath": "staticwebassets\\img\\Data\\ShopsLogos\\Gomla Market.jpg"
+      "Id": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\img\\Data\\ShopsLogos\\Circle K.jpg",
+      "PackagePath": "staticwebassets\\img\\Data\\ShopsLogos\\Circle K.jpg"
+    },
+    {
+      "Id": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\img\\Data\\ShopsLogos\\Gomla market .jpg",
+      "PackagePath": "staticwebassets\\img\\Data\\ShopsLogos\\Gomla market .jpg"
+    },
+    {
+      "Id": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\img\\Data\\ShopsLogos\\Kazyoun.jpg",
+      "PackagePath": "staticwebassets\\img\\Data\\ShopsLogos\\Kazyoun.jpg"
+    },
+    {
+      "Id": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\img\\Data\\ShopsLogos\\Kheir zaman.jpg",
+      "PackagePath": "staticwebassets\\img\\Data\\ShopsLogos\\Kheir zaman.jpg"
     },
     {
       "Id": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\img\\avatar.jpg",

@@ -9,7 +9,7 @@ namespace Fruitables.Controllers
         public IActionResult Shop()
         {
             Shop shops = new();
-            return View(shops.GetShopsNames());
+            return View(shops.GetShops());
         }
 
         public IActionResult ShopDetail()
