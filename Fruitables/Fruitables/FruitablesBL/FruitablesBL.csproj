@@ -7,18 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="..\Config\appsettings.Development.json" Link="Config\appsettings.Development.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\Config\appsettings.json" Link="Config\appsettings.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    <Compile Remove="Config\**" />
+    <EmbeddedResource Remove="Config\**" />
+    <None Remove="Config\**" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="EntityManagement\SellersManager\" />
     <Folder Include="Mapping\" />
-    <Folder Include="Config\" />
   </ItemGroup>
 
   <ItemGroup>
