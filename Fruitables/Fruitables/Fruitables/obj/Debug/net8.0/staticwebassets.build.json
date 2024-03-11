@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Tkjib5nZ5hVU9R052cR32Hi9Z2Nr413A7mGdfC0YEVM=",
+  "Hash": "6v7KBpp3I/+bnKCwYNcmXYIne24U2q80egd0lr8OqOY=",
   "Source": "Fruitables",
   "BasePath": "_content/Fruitables",
   "Mode": "Default",
@@ -74,12 +74,12 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\css\\Products.css",
+      "Identity": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\css\\products.css",
       "SourceId": "Fruitables",
       "SourceType": "Discovered",
       "ContentRoot": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\",
       "BasePath": "_content/Fruitables",
-      "RelativePath": "css/Products.css",
+      "RelativePath": "css/products.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -90,7 +90,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\Products.css"
+      "OriginalItemSpec": "wwwroot\\css\\products.css"
     },
     {
       "Identity": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\css\\site.css",
@@ -1499,12 +1499,12 @@
       "OriginalItemSpec": "wwwroot\\js\\main.js"
     },
     {
-      "Identity": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\js\\Products.js",
+      "Identity": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\js\\products.js",
       "SourceId": "Fruitables",
       "SourceType": "Discovered",
       "ContentRoot": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\",
       "BasePath": "_content/Fruitables",
-      "RelativePath": "js/Products.js",
+      "RelativePath": "js/products.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1515,7 +1515,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\Products.js"
+      "OriginalItemSpec": "wwwroot\\js\\products.js"
     },
     {
       "Identity": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\lib\\easing\\easing.js",
