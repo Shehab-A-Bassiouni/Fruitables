@@ -108,4 +108,8 @@
     <ProjectReference Include="..\FruitablesBL\FruitablesBL.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\Seller\" />
+  </ItemGroup>
+
 </Project>

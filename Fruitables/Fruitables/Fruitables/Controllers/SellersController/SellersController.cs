@@ -1,9 +1,10 @@
-﻿using FruitablesBL.EntityManagement.Interface;
+﻿using Fruitables.Models.Cart;
+using FruitablesBL.EntityManagement.Interface;
 using FruitablesBL.EntityManagement.Repository;
 using FruitablesDAL.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-
+using System.Text.Json;
 
 namespace Fruitables.Controllers.SellerController
 {
@@ -90,5 +91,8 @@ namespace Fruitables.Controllers.SellerController
                 return View();
             }
         }
+
+
+      
     }
 }
