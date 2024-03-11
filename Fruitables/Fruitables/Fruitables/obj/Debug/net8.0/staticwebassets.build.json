@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6v7KBpp3I/+bnKCwYNcmXYIne24U2q80egd0lr8OqOY=",
+  "Hash": "mFegytrbpp3ifeHlDrtNxICXzKEhTX1sX4+YfnhQtnU=",
   "Source": "Fruitables",
   "BasePath": "_content/Fruitables",
   "Mode": "Default",
@@ -357,6 +357,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\best-product-6.jpg"
+    },
+    {
+      "Identity": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\img\\cart.gif",
+      "SourceId": "Fruitables",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\",
+      "BasePath": "_content/Fruitables",
+      "RelativePath": "img/cart.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\cart.gif"
     },
     {
       "Identity": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\img\\cart-page-header-img.jpg",
@@ -1518,6 +1537,25 @@
       "OriginalItemSpec": "wwwroot\\js\\products.js"
     },
     {
+      "Identity": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\lib\\bootstrap\\bootstrap.bundle.min.js",
+      "SourceId": "Fruitables",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\",
+      "BasePath": "_content/Fruitables",
+      "RelativePath": "lib/bootstrap/bootstrap.bundle.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\bootstrap.bundle.min.js"
+    },
+    {
       "Identity": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\lib\\easing\\easing.js",
       "SourceId": "Fruitables",
       "SourceType": "Discovered",
@@ -1554,6 +1592,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Identity": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\lib\\jquery\\jquery.min.js",
+      "SourceId": "Fruitables",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\",
+      "BasePath": "_content/Fruitables",
+      "RelativePath": "lib/jquery/jquery.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\jquery.min.js"
     },
     {
       "Identity": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\lib\\lightbox\\css\\lightbox.min.css",
