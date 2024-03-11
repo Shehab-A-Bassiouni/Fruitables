@@ -8,13 +8,15 @@ namespace Fruitables.Controllers.CartController
 {
     public class CartController : Controller
     {
-        // GET: CartController
-        public ActionResult Cart()
+       
+
+        [HttpPost]
+        public ActionResult Cart(string data)
         {
-          
-            return View();
+            
+            return View(data);
         }
 
-   
+
     }
 }
