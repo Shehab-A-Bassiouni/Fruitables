@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "F:\\ITI 9 Month SD\\16.MVC\\Final Project2\\Fruitables\\Fruitables\\Fruitables\\FruitablesBL\\FruitablesBL.csproj": {}
+    "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesBL\\FruitablesBL.csproj": {}
   },
   "projects": {
-    "F:\\ITI 9 Month SD\\16.MVC\\Final Project2\\Fruitables\\Fruitables\\Fruitables\\FruitablesBL\\FruitablesBL.csproj": {
+    "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesBL\\FruitablesBL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ITI 9 Month SD\\16.MVC\\Final Project2\\Fruitables\\Fruitables\\Fruitables\\FruitablesBL\\FruitablesBL.csproj",
+        "projectUniqueName": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesBL\\FruitablesBL.csproj",
         "projectName": "FruitablesBL",
-        "projectPath": "F:\\ITI 9 Month SD\\16.MVC\\Final Project2\\Fruitables\\Fruitables\\Fruitables\\FruitablesBL\\FruitablesBL.csproj",
-        "packagesPath": "C:\\Users\\eng omnia sayed\\.nuget\\packages\\",
-        "outputPath": "F:\\ITI 9 Month SD\\16.MVC\\Final Project2\\Fruitables\\Fruitables\\Fruitables\\FruitablesBL\\obj\\",
+        "projectPath": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesBL\\FruitablesBL.csproj",
+        "packagesPath": "C:\\Users\\swesh\\.nuget\\packages\\",
+        "outputPath": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesBL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages"
         ],
         "configFilePaths": [
-          "C:\\Users\\eng omnia sayed\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\swesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "F:\\ITI 9 Month SD\\16.MVC\\Final Project2\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\FruitablesDAL.csproj": {
-                "projectPath": "F:\\ITI 9 Month SD\\16.MVC\\Final Project2\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\FruitablesDAL.csproj"
+              "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\FruitablesDAL.csproj": {
+                "projectPath": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\FruitablesDAL.csproj"
               }
             }
           }
@@ -86,21 +87,21 @@
         }
       }
     },
-    "F:\\ITI 9 Month SD\\16.MVC\\Final Project2\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\FruitablesDAL.csproj": {
+    "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\FruitablesDAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ITI 9 Month SD\\16.MVC\\Final Project2\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\FruitablesDAL.csproj",
+        "projectUniqueName": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\FruitablesDAL.csproj",
         "projectName": "FruitablesDAL",
-        "projectPath": "F:\\ITI 9 Month SD\\16.MVC\\Final Project2\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\FruitablesDAL.csproj",
-        "packagesPath": "C:\\Users\\eng omnia sayed\\.nuget\\packages\\",
-        "outputPath": "F:\\ITI 9 Month SD\\16.MVC\\Final Project2\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\obj\\",
+        "projectPath": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\FruitablesDAL.csproj",
+        "packagesPath": "C:\\Users\\swesh\\.nuget\\packages\\",
+        "outputPath": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesDAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages"
         ],
         "configFilePaths": [
-          "C:\\Users\\eng omnia sayed\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\swesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -108,6 +109,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
