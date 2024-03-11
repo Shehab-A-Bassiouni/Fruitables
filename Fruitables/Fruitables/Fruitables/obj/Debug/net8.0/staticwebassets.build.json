@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mFegytrbpp3ifeHlDrtNxICXzKEhTX1sX4+YfnhQtnU=",
+  "Hash": "RB6q5uJvbKM8JFMnNI40ZDJvrDMtUUCna1Sn79DdSmo=",
   "Source": "Fruitables",
   "BasePath": "_content/Fruitables",
   "Mode": "Default",
@@ -74,12 +74,12 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\css\\products.css",
+      "Identity": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\css\\Products.css",
       "SourceId": "Fruitables",
       "SourceType": "Discovered",
       "ContentRoot": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\",
       "BasePath": "_content/Fruitables",
-      "RelativePath": "css/products.css",
+      "RelativePath": "css/Products.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -90,7 +90,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\products.css"
+      "OriginalItemSpec": "wwwroot\\css\\Products.css"
     },
     {
       "Identity": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\css\\site.css",
@@ -1518,12 +1518,12 @@
       "OriginalItemSpec": "wwwroot\\js\\main.js"
     },
     {
-      "Identity": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\js\\products.js",
+      "Identity": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\js\\Products.js",
       "SourceId": "Fruitables",
       "SourceType": "Discovered",
       "ContentRoot": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\",
       "BasePath": "_content/Fruitables",
-      "RelativePath": "js/products.js",
+      "RelativePath": "js/Products.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1534,7 +1534,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\products.js"
+      "OriginalItemSpec": "wwwroot\\js\\Products.js"
+    },
+    {
+      "Identity": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\js\\shared.js",
+      "SourceId": "Fruitables",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\",
+      "BasePath": "_content/Fruitables",
+      "RelativePath": "js/shared.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\shared.js"
     },
     {
       "Identity": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\lib\\bootstrap\\bootstrap.bundle.min.js",

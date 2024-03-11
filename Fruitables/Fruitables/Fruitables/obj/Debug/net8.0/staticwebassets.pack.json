@@ -5,12 +5,12 @@
       "PackagePath": "staticwebassets\\Fruitables.bundle.scp.css"
     },
     {
-      "Id": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\css\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+      "Id": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\css\\Products.css",
+      "PackagePath": "staticwebassets\\css\\Products.css"
     },
     {
-      "Id": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\css\\products.css",
-      "PackagePath": "staticwebassets\\css\\products.css"
+      "Id": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
       "Id": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\css\\site.css",
@@ -309,12 +309,16 @@
       "PackagePath": "staticwebassets\\img\\vegetable-item-6.jpg"
     },
     {
+      "Id": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\js\\Products.js",
+      "PackagePath": "staticwebassets\\js\\Products.js"
+    },
+    {
       "Id": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },
     {
-      "Id": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\js\\products.js",
-      "PackagePath": "staticwebassets\\js\\products.js"
+      "Id": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\js\\shared.js",
+      "PackagePath": "staticwebassets\\js\\shared.js"
     },
     {
       "Id": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\lib\\bootstrap\\bootstrap.bundle.min.js",
