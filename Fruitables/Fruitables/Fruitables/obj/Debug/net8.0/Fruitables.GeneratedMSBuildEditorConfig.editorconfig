@@ -26,8 +26,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = F:\MVC Project\Fruitables\Fruitables\Fruitables\Fruitables
 build_property._RazorSourceGeneratorDebug = 
 
-[F:/MVC Project/Fruitables/Fruitables/Fruitables/Fruitables/Views/Cart/Cart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxDYXJ0LmNzaHRtbA==
+[F:/MVC Project/Fruitables/Fruitables/Fruitables/Fruitables/Views/Cart/EmptyCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxFbXB0eUNhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MVC Project/Fruitables/Fruitables/Fruitables/Fruitables/Views/Cart/FullCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxGdWxsQ2FydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/MVC Project/Fruitables/Fruitables/Fruitables/Fruitables/Views/Contact/Contact.cshtml]

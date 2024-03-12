@@ -7,13 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Config\**" />
     <Compile Remove="EntityManagement\SellersManager\**" />
+    <EmbeddedResource Remove="Config\**" />
     <EmbeddedResource Remove="EntityManagement\SellersManager\**" />
+    <None Remove="Config\**" />
     <None Remove="EntityManagement\SellersManager\**" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Config\" />
   </ItemGroup>
 
   <ItemGroup>

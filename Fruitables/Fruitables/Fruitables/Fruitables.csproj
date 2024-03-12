@@ -8,9 +8,13 @@
 
   <ItemGroup>
     <Compile Remove="Config\**" />
+    <Compile Remove="Models\Seller\**" />
     <Content Remove="Config\**" />
+    <Content Remove="Models\Seller\**" />
     <EmbeddedResource Remove="Config\**" />
+    <EmbeddedResource Remove="Models\Seller\**" />
     <None Remove="Config\**" />
+    <None Remove="Models\Seller\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -106,10 +110,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\FruitablesBL\FruitablesBL.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Models\Seller\" />
   </ItemGroup>
 
 </Project>

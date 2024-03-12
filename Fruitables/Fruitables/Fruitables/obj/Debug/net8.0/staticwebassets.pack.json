@@ -325,16 +325,8 @@
       "PackagePath": "staticwebassets\\img\\vegetable-item-6.jpg"
     },
     {
-      "Id": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\js\\Products.js",
-      "PackagePath": "staticwebassets\\js\\Products.js"
-    },
-    {
       "Id": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
-    },
-    {
-      "Id": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\js\\shared.js",
-      "PackagePath": "staticwebassets\\js\\shared.js"
     },
     {
       "Id": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\lib\\bootstrap\\bootstrap.bundle.min.js",

@@ -1,5 +1,4 @@
-﻿using Fruitables.Models.Cart;
-using FruitablesBL.EntityManagement.Interface;
+﻿using FruitablesBL.EntityManagement.Interface;
 using FruitablesBL.EntityManagement.Repository;
 using FruitablesDAL.Models;
 using Microsoft.AspNetCore.Http;

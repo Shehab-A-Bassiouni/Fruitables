@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E09553B6-A370-4FFB-8DCD-70D814A89B01}|FruitablesBL\\FruitablesBL.csproj|f:\\mvc project\\fruitables\\fruitables\\fruitables\\fruitablesbl\\mapping\\cartvmmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E09553B6-A370-4FFB-8DCD-70D814A89B01}|FruitablesBL\\FruitablesBL.csproj|solutionrelative:fruitablesbl\\mapping\\cartvmmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|f:\\mvc project\\fruitables\\fruitables\\fruitables\\fruitables\\views\\cart\\emptycart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|solutionrelative:fruitables\\views\\cart\\emptycart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\fruitables\\models\\cart\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|solutionrelative:fruitables\\models\\cart\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E09553B6-A370-4FFB-8DCD-70D814A89B01}|FruitablesBL\\FruitablesBL.csproj|F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\fruitablesbl\\entitymanagement\\repository\\cartrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E09553B6-A370-4FFB-8DCD-70D814A89B01}|FruitablesBL\\FruitablesBL.csproj|solutionrelative:fruitablesbl\\entitymanagement\\repository\\cartrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E09553B6-A370-4FFB-8DCD-70D814A89B01}|FruitablesBL\\FruitablesBL.csproj|F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\fruitablesbl\\entitymanagement\\interface\\intercartrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E09553B6-A370-4FFB-8DCD-70D814A89B01}|FruitablesBL\\FruitablesBL.csproj|solutionrelative:fruitablesbl\\entitymanagement\\interface\\intercartrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|f:\\mvc project\\fruitables\\fruitables\\fruitables\\fruitables\\views\\cart\\fullcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|solutionrelative:fruitables\\views\\cart\\fullcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,51 +23,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Cart.cs",
-              "DocumentMoniker": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\Models\\Cart\\Cart.cs",
-              "RelativeDocumentMoniker": "Fruitables\\Models\\Cart\\Cart.cs",
-              "ToolTip": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\Models\\Cart\\Cart.cs",
-              "RelativeToolTip": "Fruitables\\Models\\Cart\\Cart.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T07:53:43.341Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CartVMMapper.cs",
-              "DocumentMoniker": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesBL\\Mapping\\CartVMMapper.cs",
-              "RelativeDocumentMoniker": "FruitablesBL\\Mapping\\CartVMMapper.cs",
-              "ToolTip": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesBL\\Mapping\\CartVMMapper.cs",
-              "RelativeToolTip": "FruitablesBL\\Mapping\\CartVMMapper.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAqwB0AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T07:51:17.063Z",
+              "Title": "FullCart.cshtml",
+              "DocumentMoniker": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\Views\\Cart\\FullCart.cshtml",
+              "RelativeDocumentMoniker": "Fruitables\\Views\\Cart\\FullCart.cshtml",
+              "ToolTip": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\Views\\Cart\\FullCart.cshtml",
+              "RelativeToolTip": "Fruitables\\Views\\Cart\\FullCart.cshtml",
+              "ViewState": "AQIAAGMBAAAAAAAAAAAQwHcBAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-12T12:04:10.015Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CartRepo.cs",
-              "DocumentMoniker": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesBL\\EntityManagement\\Repository\\CartRepo.cs",
-              "RelativeDocumentMoniker": "FruitablesBL\\EntityManagement\\Repository\\CartRepo.cs",
-              "ToolTip": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesBL\\EntityManagement\\Repository\\CartRepo.cs",
-              "RelativeToolTip": "FruitablesBL\\EntityManagement\\Repository\\CartRepo.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAYwBsAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T07:34:42.381Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "InterCartRepo.cs",
-              "DocumentMoniker": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesBL\\EntityManagement\\Interface\\InterCartRepo.cs",
-              "RelativeDocumentMoniker": "FruitablesBL\\EntityManagement\\Interface\\InterCartRepo.cs",
-              "ToolTip": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesBL\\EntityManagement\\Interface\\InterCartRepo.cs",
-              "RelativeToolTip": "FruitablesBL\\EntityManagement\\Interface\\InterCartRepo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T07:34:34.293Z"
+              "DocumentIndex": 0,
+              "Title": "EmptyCart.cshtml",
+              "DocumentMoniker": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\Views\\Cart\\EmptyCart.cshtml",
+              "RelativeDocumentMoniker": "Fruitables\\Views\\Cart\\EmptyCart.cshtml",
+              "ToolTip": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\Views\\Cart\\EmptyCart.cshtml",
+              "RelativeToolTip": "Fruitables\\Views\\Cart\\EmptyCart.cshtml",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAAAG8AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-12T12:02:56.215Z",
+              "EditorCaption": ""
             }
           ]
         }
