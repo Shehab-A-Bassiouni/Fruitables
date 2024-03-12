@@ -14,3 +14,19 @@ F:\ITI 9 Month SD\16.MVC\Final Project2\Fruitables\Fruitables\Fruitables\Fruitab
 F:\ITI 9 Month SD\16.MVC\Final Project2\Fruitables\Fruitables\Fruitables\FruitablesBL\obj\Debug\net8.0\refint\FruitablesBL.dll
 F:\ITI 9 Month SD\16.MVC\Final Project2\Fruitables\Fruitables\Fruitables\FruitablesBL\obj\Debug\net8.0\FruitablesBL.pdb
 F:\ITI 9 Month SD\16.MVC\Final Project2\Fruitables\Fruitables\Fruitables\FruitablesBL\obj\Debug\net8.0\ref\FruitablesBL.dll
+F:\MVC Project\Fruitables\Fruitables\Fruitables\FruitablesBL\bin\Debug\net8.0\FruitablesBL.deps.json
+F:\MVC Project\Fruitables\Fruitables\Fruitables\FruitablesBL\bin\Debug\net8.0\FruitablesBL.dll
+F:\MVC Project\Fruitables\Fruitables\Fruitables\FruitablesBL\bin\Debug\net8.0\FruitablesBL.pdb
+F:\MVC Project\Fruitables\Fruitables\Fruitables\FruitablesBL\bin\Debug\net8.0\FruitablesDAL.dll
+F:\MVC Project\Fruitables\Fruitables\Fruitables\FruitablesBL\bin\Debug\net8.0\FruitablesDAL.pdb
+F:\MVC Project\Fruitables\Fruitables\Fruitables\FruitablesBL\obj\Debug\net8.0\FruitablesBL.csproj.AssemblyReference.cache
+F:\MVC Project\Fruitables\Fruitables\Fruitables\FruitablesBL\obj\Debug\net8.0\FruitablesBL.GeneratedMSBuildEditorConfig.editorconfig
+F:\MVC Project\Fruitables\Fruitables\Fruitables\FruitablesBL\obj\Debug\net8.0\FruitablesBL.AssemblyInfoInputs.cache
+F:\MVC Project\Fruitables\Fruitables\Fruitables\FruitablesBL\obj\Debug\net8.0\FruitablesBL.AssemblyInfo.cs
+F:\MVC Project\Fruitables\Fruitables\Fruitables\FruitablesBL\obj\Debug\net8.0\FruitablesBL.csproj.CoreCompileInputs.cache
+F:\MVC Project\Fruitables\Fruitables\Fruitables\FruitablesBL\obj\Debug\net8.0\FruitablesBL.sourcelink.json
+F:\MVC Project\Fruitables\Fruitables\Fruitables\FruitablesBL\obj\Debug\net8.0\Fruitabl.0D1977C1.Up2Date
+F:\MVC Project\Fruitables\Fruitables\Fruitables\FruitablesBL\obj\Debug\net8.0\FruitablesBL.dll
+F:\MVC Project\Fruitables\Fruitables\Fruitables\FruitablesBL\obj\Debug\net8.0\refint\FruitablesBL.dll
+F:\MVC Project\Fruitables\Fruitables\Fruitables\FruitablesBL\obj\Debug\net8.0\FruitablesBL.pdb
+F:\MVC Project\Fruitables\Fruitables\Fruitables\FruitablesBL\obj\Debug\net8.0\ref\FruitablesBL.dll

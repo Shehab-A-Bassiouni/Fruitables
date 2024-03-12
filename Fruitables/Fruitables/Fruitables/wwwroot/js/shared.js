@@ -1,21 +1,29 @@
-﻿const cart = document.getElementById("cart-btn");
+﻿$(document).ready( function () {
+
+    const data = localStorage.getItem('cart');
+
+    $("#cart-btn").click(function () {
 
 
-cart.addEventListener('click', function () {
-    try {
+
         $.ajax({
-            type: 'POST', 
+            type: 'POST',
             url: '/Cart/Cart',
-            data: { myValue: myValue },
+            dataType: "json",
+            traditional:true,
+            contentType: 'application/json',
+            data: { data: data },
             success: function (response) {
-                console.log('Sent Succeefully');
+                prompt("Success");
             },
             error: function (error) {
-                console.error('Error', error);
+                prompt("Error");
             }
         });
-    }
-    catch (e) {
-        console.error('Error', e);
-    }
+    });
+
 });
+
+
+
+
