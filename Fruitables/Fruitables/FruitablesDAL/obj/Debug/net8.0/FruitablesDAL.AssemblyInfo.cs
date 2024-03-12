@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FruitablesDAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57e3b4848e1837de05babe0118d06ea15c700403")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77895731465f69ec13df93f185016d95cb6636da")]
 [assembly: System.Reflection.AssemblyProductAttribute("FruitablesDAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FruitablesDAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,18 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\swesh\\OneDrive\\Desktop\\BackUp\\New folder\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\",
+  "WorkspaceRootPath": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|c:\\users\\swesh\\onedrive\\desktop\\backup\\new folder\\mvc project\\fruitables\\fruitables\\fruitables\\fruitables\\controllers\\logincontroller\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|solutionrelative:fruitables\\controllers\\logincontroller\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\fruitables\\wwwroot\\js\\shared.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|solutionrelative:fruitables\\wwwroot\\js\\shared.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|c:\\users\\swesh\\onedrive\\desktop\\backup\\new folder\\mvc project\\fruitables\\fruitables\\fruitables\\fruitables\\controllers\\profilecontroller\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|solutionrelative:fruitables\\controllers\\profilecontroller\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\fruitables\\wwwroot\\js\\products.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|solutionrelative:fruitables\\wwwroot\\js\\products.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|c:\\users\\swesh\\onedrive\\desktop\\backup\\new folder\\mvc project\\fruitables\\fruitables\\fruitables\\fruitables\\controllers\\registercontroller\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|solutionrelative:fruitables\\controllers\\registercontroller\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|f:\\mvc project\\fruitables\\fruitables\\fruitables\\fruitables\\views\\sellers\\sellers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|solutionrelative:fruitables\\views\\sellers\\sellers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\fruitables\\controllers\\cartcontroller\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|solutionrelative:fruitables\\controllers\\cartcontroller\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|f:\\mvc project\\fruitables\\fruitables\\fruitables\\fruitables\\views\\cart\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|solutionrelative:fruitables\\views\\cart\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|f:\\mvc project\\fruitables\\fruitables\\fruitables\\fruitables\\controllers\\sellerscontroller\\sellerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|solutionrelative:fruitables\\controllers\\sellerscontroller\\sellerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +39,81 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\swesh\\OneDrive\\Desktop\\BackUp\\New folder\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\Controllers\\LoginController\\LoginController.cs",
-              "RelativeDocumentMoniker": "Fruitables\\Controllers\\LoginController\\LoginController.cs",
-              "ToolTip": "C:\\Users\\swesh\\OneDrive\\Desktop\\BackUp\\New folder\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\Controllers\\LoginController\\LoginController.cs",
-              "RelativeToolTip": "Fruitables\\Controllers\\LoginController\\LoginController.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAmwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T01:05:12.231Z",
+              "Title": "shared.js",
+              "DocumentMoniker": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\js\\shared.js",
+              "RelativeDocumentMoniker": "Fruitables\\wwwroot\\js\\shared.js",
+              "ToolTip": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\js\\shared.js",
+              "RelativeToolTip": "Fruitables\\wwwroot\\js\\shared.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-12T03:18:10.924Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProfileController.cs",
-              "DocumentMoniker": "C:\\Users\\swesh\\OneDrive\\Desktop\\BackUp\\New folder\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\Controllers\\ProfileController\\ProfileController.cs",
-              "RelativeDocumentMoniker": "Fruitables\\Controllers\\ProfileController\\ProfileController.cs",
-              "ToolTip": "C:\\Users\\swesh\\OneDrive\\Desktop\\BackUp\\New folder\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\Controllers\\ProfileController\\ProfileController.cs",
-              "RelativeToolTip": "Fruitables\\Controllers\\ProfileController\\ProfileController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T01:05:10.592Z",
+              "Title": "Products.js",
+              "DocumentMoniker": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\js\\Products.js",
+              "RelativeDocumentMoniker": "Fruitables\\wwwroot\\js\\Products.js",
+              "ToolTip": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\js\\Products.js",
+              "RelativeToolTip": "Fruitables\\wwwroot\\js\\Products.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-12T03:19:01.608Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "RegisterController.cs",
-              "DocumentMoniker": "C:\\Users\\swesh\\OneDrive\\Desktop\\BackUp\\New folder\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\Controllers\\RegisterController\\RegisterController.cs",
-              "RelativeDocumentMoniker": "Fruitables\\Controllers\\RegisterController\\RegisterController.cs",
-              "ToolTip": "C:\\Users\\swesh\\OneDrive\\Desktop\\BackUp\\New folder\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\Controllers\\RegisterController\\RegisterController.cs",
-              "RelativeToolTip": "Fruitables\\Controllers\\RegisterController\\RegisterController.cs",
+              "Title": "Sellers.cshtml",
+              "DocumentMoniker": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\Views\\Sellers\\Sellers.cshtml",
+              "RelativeDocumentMoniker": "Fruitables\\Views\\Sellers\\Sellers.cshtml",
+              "ToolTip": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\Views\\Sellers\\Sellers.cshtml",
+              "RelativeToolTip": "Fruitables\\Views\\Sellers\\Sellers.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-12T06:58:51.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SellersController.cs",
+              "DocumentMoniker": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\Controllers\\SellersController\\SellersController.cs",
+              "RelativeDocumentMoniker": "Fruitables\\Controllers\\SellersController\\SellersController.cs",
+              "ToolTip": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\Controllers\\SellersController\\SellersController.cs",
+              "RelativeToolTip": "Fruitables\\Controllers\\SellersController\\SellersController.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAuwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T01:05:08.677Z",
+              "WhenOpened": "2024-03-12T06:58:09.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cart.cshtml",
+              "DocumentMoniker": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\Views\\Cart\\Cart.cshtml",
+              "RelativeDocumentMoniker": "Fruitables\\Views\\Cart\\Cart.cshtml",
+              "ToolTip": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\Views\\Cart\\Cart.cshtml",
+              "RelativeToolTip": "Fruitables\\Views\\Cart\\Cart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-12T04:23:58.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\Controllers\\CartController\\CartController.cs",
+              "RelativeDocumentMoniker": "Fruitables\\Controllers\\CartController\\CartController.cs",
+              "ToolTip": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\Controllers\\CartController\\CartController.cs",
+              "RelativeToolTip": "Fruitables\\Controllers\\CartController\\CartController.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAtwA4AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T04:05:13.771Z",
               "EditorCaption": ""
             }
           ]

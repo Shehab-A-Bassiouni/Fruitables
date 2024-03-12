@@ -7699,11 +7699,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\swesh\\OneDrive\\Desktop\\BackUp\\New folder\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\Fruitables.csproj",
+      "projectUniqueName": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\Fruitables.csproj",
       "projectName": "Fruitables",
-      "projectPath": "C:\\Users\\swesh\\OneDrive\\Desktop\\BackUp\\New folder\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\Fruitables.csproj",
+      "projectPath": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\Fruitables.csproj",
       "packagesPath": "C:\\Users\\swesh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\swesh\\OneDrive\\Desktop\\BackUp\\New folder\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\obj\\",
+      "outputPath": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages"
@@ -7725,8 +7725,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\swesh\\OneDrive\\Desktop\\BackUp\\New folder\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesBL\\FruitablesBL.csproj": {
-              "projectPath": "C:\\Users\\swesh\\OneDrive\\Desktop\\BackUp\\New folder\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesBL\\FruitablesBL.csproj"
+            "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesBL\\FruitablesBL.csproj": {
+              "projectPath": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\FruitablesBL\\FruitablesBL.csproj"
             }
           }
         }

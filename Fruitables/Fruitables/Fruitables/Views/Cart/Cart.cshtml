@@ -1,4 +1,4 @@
-﻿@model List<string>
+﻿@model List<int>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -65,13 +65,13 @@
                     <div class="navbar-nav mx-auto">
                         <a asp-controller="Home" asp-action="Index" class="nav-item nav-link ">Home</a>
                         <a asp-controller="Sellers" asp-action="Sellers" class="nav-item nav-link" >Shop</a>
-                        <a asp-controller="Cart" asp-action="Cart" class="nav-item nav-link active">Cart</a>
+                        <a asp-controller="Cart" asp-action="Cart" class="nav-item nav-link active cart-btn">Cart</a>
                         <a asp-controller="Contact" asp-action="Contact" class="nav-item nav-link">Contact</a>
                         <a asp-controller="Testimonial" asp-action="Testimonial" class="nav-item nav-link">Testimonial</a>
                     </div>
                     <div class="d-flex m-3 me-0">
                         <button class="btn-search btn border border-secondary btn-md-square rounded-circle bg-white me-4" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search text-primary"></i></button>
-                        <a asp-controller="Cart" asp-action="Cart" class="position-relative me-4 my-auto" id="cart-btn">
+                        <a asp-controller="Cart" asp-action="Cart" class="position-relative me-4 my-auto cart-btn">
                             <i class="fa fa-shopping-bag fa-2x"></i>
                             <span class="position-absolute bg-secondary rounded-circle d-flex align-items-center justify-content-center text-dark px-1" style="top: -5px; left: 15px; height: 20px; min-width: 20px;">3</span>
                         </a>
@@ -131,51 +131,50 @@
                       
                     
                         @{
-                            foreach (string item in Model)
+                            
+
+                            foreach (int item in Model)
                             {
-                                int itemID = int.Parse(item);
-
-                                <tr>
-                                    <th scope="row">
-                                        <div class="d-flex align-items-center">
-                                            <img src="img/vegetable-item-2.jpg" class="img-fluid me-5 rounded-circle" style="width: 80px; height: 80px;" alt="">
-                                        </div>
-                                    </th>
-                                    <td>
-                                        <p class="mb-0 mt-4">Awesome Brocoli</p>
-                                    </td>
-                                    <td>
-                                        <p class="mb-0 mt-4">2.99 $</p>
-                                    </td>
-                                    <td>
-                                        <div class="input-group quantity mt-4" style="width: 100px;">
-                                            <div class="input-group-btn">
-                                                <button class="btn btn-sm btn-minus rounded-circle bg-light border">
-                                                    <i class="fa fa-minus"></i>
-                                                </button>
+                                
+                                    <tr>
+                                        <th scope="row">
+                                            <div class="d-flex align-items-center">
+                                                <img src="img/vegetable-item-2.jpg" class="img-fluid me-5 rounded-circle" style="width: 80px; height: 80px;" alt="">
                                             </div>
-                                            <input type="text" class="form-control form-control-sm text-center border-0" value="1">
-                                            <div class="input-group-btn">
-                                                <button class="btn btn-sm btn-plus rounded-circle bg-light border">
-                                                    <i class="fa fa-plus"></i>
-                                                </button>
+                                        </th>
+                                        <td>
+                                            <p class="mb-0 mt-4">Awesome Brocoli</p>
+                                        </td>
+                                        <td>
+                                            <p class="mb-0 mt-4">2.99 $</p>
+                                        </td>
+                                        <td>
+                                            <div class="input-group quantity mt-4" style="width: 100px;">
+                                                <div class="input-group-btn">
+                                                    <button class="btn btn-sm btn-minus rounded-circle bg-light border">
+                                                        <i class="fa fa-minus"></i>
+                                                    </button>
+                                                </div>
+                                                <input type="text" class="form-control form-control-sm text-center border-0" value="1">
+                                                <div class="input-group-btn">
+                                                    <button class="btn btn-sm btn-plus rounded-circle bg-light border">
+                                                        <i class="fa fa-plus"></i>
+                                                    </button>
+                                                </div>
                                             </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <p class="mb-0 mt-4">2.99 $</p>
-                                    </td>
-                                    <td>
-                                        <button class="btn btn-md rounded-circle bg-light border mt-4">
-                                            <i class="fa fa-times text-danger"></i>
-                                        </button>
-                                    </td>
-                                </tr>
-
+                                        </td>
+                                        <td>
+                                            <p class="mb-0 mt-4">2.99 $</p>
+                                        </td>
+                                        <td>
+                                            <button class="btn btn-md rounded-circle bg-light border mt-4">
+                                                <i class="fa fa-times text-danger"></i>
+                                            </button>
+                                        </td>
+                                    </tr>
                             }
 
                         }
-                       
 
 
 

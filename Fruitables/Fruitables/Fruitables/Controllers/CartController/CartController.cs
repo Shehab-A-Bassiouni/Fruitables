@@ -10,27 +10,20 @@ namespace Fruitables.Controllers.CartController
     public class CartController : Controller
     {
 
-        List<string> lst;
-        [HttpPost]
-        public ActionResult Cart(List<string> dataArray)
-        {
-            lst = dataArray;
-
-            return Json(new { success = true, message = "Data received successfully" });
-        }
-
-
 
         [HttpGet]
-        public ActionResult Cart()
+        [HttpPost]
+        public ActionResult Cart([FromBody] List<string>? data = null)
         {
-            if (lst is null) {
-                lst = new() { "1" };
+            if (data == null)
+            {
+                return View(new List<int>());
             }
-            return View(lst);
+
+            List<int> items = data.Select(str => int.TryParse(str, out int result) ? result : 0).ToList();
+
+            return View("Cart",items);
         }
-
-
 
     }
 }
