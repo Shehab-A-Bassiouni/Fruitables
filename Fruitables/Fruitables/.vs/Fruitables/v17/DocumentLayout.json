@@ -4,10 +4,22 @@
   "Documents": [
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+      "AbsoluteMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|f:\\mvc project\\fruitables\\fruitables\\fruitables\\fruitables\\controllers\\cartcontroller\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|solutionrelative:fruitables\\controllers\\cartcontroller\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|f:\\mvc project\\fruitables\\fruitables\\fruitables\\fruitables\\controllers\\sellerscontroller\\sellerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|solutionrelative:fruitables\\controllers\\sellerscontroller\\sellerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+>>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|f:\\mvc project\\fruitables\\fruitables\\fruitables\\fruitables\\wwwroot\\js\\shared.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|solutionrelative:fruitables\\wwwroot\\js\\shared.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|f:\\mvc project\\fruitables\\fruitables\\fruitables\\fruitables\\views\\cart\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|solutionrelative:fruitables\\views\\cart\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
 =======
@@ -98,6 +110,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|F:\\ITI 9 Month SD\\16.MVC\\Final Project2\\Fruitables\\Fruitables\\Fruitables\\fruitables\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|solutionrelative:fruitables\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\fruitables\\wwwroot\\js\\products.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|solutionrelative:fruitables\\wwwroot\\js\\products.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\fruitables\\views\\cart\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78F4113B-D759-4D2E-BD37-FE5CD3E13D85}|Fruitables\\Fruitables.csproj|solutionrelative:fruitables\\views\\cart\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+>>>>>>> Stashed changes
     }
   ],
   "DocumentGroupContainers": [
@@ -112,13 +132,39 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "SellersController.cs",
+              "DocumentMoniker": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\Controllers\\SellersController\\SellersController.cs",
+              "RelativeDocumentMoniker": "Fruitables\\Controllers\\SellersController\\SellersController.cs",
+              "ToolTip": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\Controllers\\SellersController\\SellersController.cs",
+              "RelativeToolTip": "Fruitables\\Controllers\\SellersController\\SellersController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T20:18:13.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\Controllers\\CartController\\CartController.cs",
+              "RelativeDocumentMoniker": "Fruitables\\Controllers\\CartController\\CartController.cs",
+              "ToolTip": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\Controllers\\CartController\\CartController.cs",
+              "RelativeToolTip": "Fruitables\\Controllers\\CartController\\CartController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T20:14:19.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Products.js",
               "DocumentMoniker": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\js\\Products.js",
               "RelativeDocumentMoniker": "Fruitables\\wwwroot\\js\\Products.js",
               "ToolTip": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\js\\Products.js",
               "RelativeToolTip": "Fruitables\\wwwroot\\js\\Products.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAPAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-03-11T20:05:12.512Z",
 =======
@@ -192,27 +238,31 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 0,
 <<<<<<< Updated upstream
+=======
+              "DocumentIndex": 2,
+>>>>>>> Stashed changes
               "Title": "shared.js",
               "DocumentMoniker": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\js\\shared.js",
               "RelativeDocumentMoniker": "Fruitables\\wwwroot\\js\\shared.js",
               "ToolTip": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\wwwroot\\js\\shared.js",
               "RelativeToolTip": "Fruitables\\wwwroot\\js\\shared.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-03-11T20:04:03.856Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Cart.cshtml",
               "DocumentMoniker": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\Views\\Cart\\Cart.cshtml",
               "RelativeDocumentMoniker": "Fruitables\\Views\\Cart\\Cart.cshtml",
               "ToolTip": "F:\\MVC Project\\Fruitables\\Fruitables\\Fruitables\\Fruitables\\Views\\Cart\\Cart.cshtml",
               "RelativeToolTip": "Fruitables\\Views\\Cart\\Cart.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-11T19:53:14.783Z",
 =======
