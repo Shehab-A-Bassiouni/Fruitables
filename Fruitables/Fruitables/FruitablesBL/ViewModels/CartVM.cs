@@ -8,6 +8,8 @@ namespace FruitablesBL.ViewModels
 {
     public class CartVM
     {
+        public int ItemID { get; set; }
+
         public string? ItemName { get; set; }
         public decimal ItemPrice { get; set; }
 
@@ -15,7 +17,7 @@ namespace FruitablesBL.ViewModels
 
         public decimal TotalPrice { get; set; }
         public string? ItemImage { get; set; }
-
+        public int CustomerID { get; set; }
 
     }
 }

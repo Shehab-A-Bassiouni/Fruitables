@@ -9,6 +9,6 @@ namespace FruitablesBL.EntityManagement.Interface
 {
     public interface ICartRepo
     {
-        public List<CartVM> GetCartItems(int customerID);
+        public CartVM? GetItemByID(int _itemID);
     }
 }

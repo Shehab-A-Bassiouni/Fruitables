@@ -1,7 +1,9 @@
 ﻿using FruitablesBL.ViewModels;
+using FruitablesDAL.Models;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,33 +12,30 @@ namespace FruitablesBL.Mapping
 {
     public class CartVMMapper
     {
-        string ItemName;
-        decimal ItemPrice;
-        int ItemQuantity;
-        decimal TotalPrice;
-        string ItemImage;
-
-        public CartVMMapper(List<string> itemData) {
-            ItemName = itemData[0];
-            decimal.TryParse(itemData[1], out ItemPrice);
-            int.TryParse(itemData[2], out ItemQuantity);
-            decimal.TryParse(itemData[3], out TotalPrice);
-            ItemImage = itemData[4];
-        }
-
-        public CartVM ToCartVM() {
-            CartVM cartVM = new CartVM
+        public CartVM? SetItemsValues(int _itemID, string? _itemName, decimal _itemPrice, int _itemQuantity, decimal _totalPrice, string? _itemImage, int _customerID)
+        {
+            try
             {
-                ItemName=this.ItemName,
-                ItemPrice = this.ItemPrice,
-                ItemQuantity = this.ItemQuantity,
-                TotalPrice = this.TotalPrice,
-                ItemImage = this.ItemImage
-            };
+                CartVM cartVM = new()
+                {
+                    ItemID = _itemID,
+                    ItemName = _itemName,
+                    ItemPrice = _itemPrice,
+                    ItemQuantity = _itemQuantity,
+                    TotalPrice = _totalPrice,
+                    ItemImage = _itemImage,
+                    CustomerID = _customerID
+                };
+                return cartVM;
+            }
 
-            return cartVM;
+            catch(Exception e) {
+                Debug.WriteLine(e.Message);
+                return null;
+            }
+          
         }
 
-       
+
     }
 }

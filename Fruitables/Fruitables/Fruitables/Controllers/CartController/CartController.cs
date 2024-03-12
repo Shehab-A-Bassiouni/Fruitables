@@ -22,7 +22,7 @@ namespace Fruitables.Controllers.CartController
 
             List<int> items = data.Select(str => int.TryParse(str, out int result) ? result : 0).ToList();
 
-            return View("Cart",items);
+            return Json(new { });
         }
 
     }
