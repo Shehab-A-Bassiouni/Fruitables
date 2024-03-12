@@ -1,29 +1,21 @@
 ﻿const cart = document.getElementById("cart-btn");
-data = JSON.parse(localStorage.getItem('cart'));
 
 
 cart.addEventListener('click', function () {
-
-    
-    fetch('/Cart/Cart', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
+    try {
+        $.ajax({
+            type: 'POST', 
+            url: '/Cart/Cart',
+            data: { myValue: myValue },
+            success: function (response) {
+                console.log('Sent Succeefully');
             },
-            body: myValueJSON,
-        })
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error(`HTTP error! Status: ${response.status}`);
-                }
-                return response.json();
-            })
-            .then(data => {
-                console.log('Value sent successfully.', data);
-            })
-            .catch(error => {
-                console.error('Error sending value:', error);
-            });
-    
-   
+            error: function (error) {
+                console.error('Error', error);
+            }
+        });
+    }
+    catch (e) {
+        console.error('Error', e);
+    }
 });
