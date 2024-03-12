@@ -12,7 +12,7 @@ namespace FruitablesBL.Mapping
 {
     public class CartVMMapper
     {
-        public CartVM? SetItemsValues(int _itemID, string? _itemName, decimal _itemPrice, int _itemQuantity, decimal _totalPrice, string? _itemImage, int _customerID)
+        public CartVM? SetItemsValues(int _itemID, string? _itemName, decimal _itemPrice,  string? _itemImage)
         {
             try
             {
@@ -21,10 +21,7 @@ namespace FruitablesBL.Mapping
                     ItemID = _itemID,
                     ItemName = _itemName,
                     ItemPrice = _itemPrice,
-                    ItemQuantity = _itemQuantity,
-                    TotalPrice = _totalPrice,
                     ItemImage = _itemImage,
-                    CustomerID = _customerID
                 };
                 return cartVM;
             }

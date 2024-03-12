@@ -12,12 +12,7 @@ namespace FruitablesBL.ViewModels
 
         public string? ItemName { get; set; }
         public decimal ItemPrice { get; set; }
-
-        public int ItemQuantity { get; set; }
-
-        public decimal TotalPrice { get; set; }
         public string? ItemImage { get; set; }
-        public int CustomerID { get; set; }
 
     }
 }
