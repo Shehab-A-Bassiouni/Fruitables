@@ -1,0 +1,56 @@
+﻿  @model List<FruitablesBL.ViewModels.ItemVM>
+
+@{
+    string itemPrice = "";
+}
+<!-- Single Page Header start -->
+<div class="container-fluid page-header py-5">
+    <h1 class="text-center text-white display-6">Cart</h1>
+    <ol class="breadcrumb justify-content-center mb-0">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item"><a href="#">Pages</a></li>
+        <li class="breadcrumb-item active text-white">Cart</li>
+    </ol>
+</div>
+<!-- Single Page Header End -->
+<!-- Cart Page Start -->
+<div class="container-fluid py-5">
+    <div class="container py-5">
+
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <td>Item</td>
+                    <td>Name</td>
+                    <td>Quantity</td>
+                    <td>Total Price</td>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                @{
+
+                    foreach (FruitablesBL.ViewModels.ItemVM item in Model ?? new List<FruitablesBL.ViewModels.ItemVM>())
+                    {
+                        string path = item.ProductID.ToString() + ".jpg";
+                        string price = item.TotalPrice.ToString() + " £";
+                        <tr>
+                            <td><img src=@item.Image class="img-fluid me-5 rounded-circle" style="width: 80px; height: 80px;" alt="" /></td>
+                            <td>@item.Name</td>
+                            <td>@item.Quantity</td>
+                            <td>@price</td>
+                        </tr>
+                    }
+                
+                }
+            </tbody>
+        </table>
+        
+
+    </div>
+</div>
+<!-- Cart Page End -->
+
+

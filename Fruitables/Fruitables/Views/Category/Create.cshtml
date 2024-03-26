@@ -1,0 +1,142 @@
+﻿@model FruitablesBL.ViewModels.ManageProductVM
+
+@{
+    Layout = null;
+    ViewData["Title"] = "Create";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Create Category</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<style>
+        body {
+            color: #000;
+            overflow-x: hidden;
+            height: 90%;
+            background-image: url('img/background.png');
+            background-repeat: no-repeat;
+            background-size: 160vh 60vh;
+            background-position: right;
+        }
+    .card {
+        padding: 30px 40px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        border: none !important;
+        box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2);
+    }
+    .blue-text {
+        color: #00BCD4;
+    }
+    .form-control-label {
+        margin-bottom: 0;
+    }
+    input,
+    textarea,
+    button {
+        padding: 8px 15px;
+        border-radius: 5px !important;
+        margin: 5px 0px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        font-size: 18px !important;
+        font-weight: 300;
+    }
+    input:focus,
+    textarea:focus {
+        -moz-box-shadow: none !important;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        border: 1px solid #00BCD4;
+        outline-width: 0;
+        font-weight: 400;
+    }
+    .btn-block {
+        text-transform: uppercase;
+        font-size: 15px !important;
+        font-weight: 400;
+        height: 43px;
+        cursor: pointer;
+    }
+    .btn-block:hover {
+        color: #fff !important;
+    }
+    button:focus {
+        -moz-box-shadow: none !important;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        outline-width: 0;
+    }
+</style>
+</head>
+<body>
+
+<div class="container-fluid px-1 py-5 mx-auto">
+    <div class="row d-flex justify-content-center">
+        <div class="col-xl-7 col-lg-8 col-md-9 col-11 text-center">
+            <div class="card">
+                <h5 class="text-center mb-4">New Category </h5>
+                <form id="categoryForm" class="form-card" asp-action="Create" method="post" asp-controller="Category" enctype="multipart/form-data">
+
+                    <input type="hidden" name="IsActive" value="true">
+
+            
+
+                    <div class="row justify-content-between text-left">
+                        <div class="row justify-content-between text-left">
+                            <div class="form-group col-12 flex-column d-flex">
+                                <label class="form-control-label px-3">Category Name<span class="text-danger"> *</span></label>
+                                <input type="text" id="Name" name="Name" placeholder="Enter your Category Name">
+                            </div>
+                        </div>
+                    </div>
+
+                
+
+                    <div class="row justify-content-center">
+                        <div class="form-group col-sm-6">
+                            <button type="submit" class="btn-block btn-success">Add Category</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#categoryForm').submit(function (event) {
+            event.preventDefault(); // Prevent default form submission
+
+            var formData = new FormData($(this)[0]); // Create form data object
+
+            $.ajax({
+                url: '/Category/Create',
+                type: 'POST',
+                data: formData,
+                processData: false,  // Important to prevent jQuery from processing the data
+                contentType: false,  // Important to prevent jQuery from setting contentType
+                success: function (response) {
+                    console.log('Success:', response);
+                    // Optionally, you can reload the page or perform any other action
+                    $('#mainContainer').html(response);
+                },
+                error: function (xhr, status, error) {
+                    console.error('Error:', error
+                        );
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>

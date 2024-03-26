@@ -1,0 +1,124 @@
+﻿@model decimal
+
+@{
+    decimal total = Model + 50;
+}
+
+
+    <!-- Single Page Header start -->
+    <div class="container-fluid page-header py-5">
+        <h1 class="text-center text-white display-6">Cart</h1>
+        <ol class="breadcrumb justify-content-center mb-0">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Pages</a></li>
+            <li class="breadcrumb-item active text-white">Cart</li>
+        </ol>
+    </div>
+    <!-- Single Page Header End -->
+    <!-- Featurs Section Start -->
+    <div class="container-fluid featurs py-5">
+        <div class="container py-5">
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="featurs-item text-center rounded bg-light p-4">
+                        <div class="featurs-icon btn-square rounded-circle bg-secondary mb-5 mx-auto">
+                            <i class="fas fa-car-side fa-3x text-white"></i>
+                        </div>
+                        <div class="featurs-content text-center">
+                            <h5>Free Shipping</h5>
+                            <p class="mb-0">Free on order over $300</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="featurs-item text-center rounded bg-light p-4">
+                        <div class="featurs-icon btn-square rounded-circle bg-secondary mb-5 mx-auto">
+                            <i class="fas fa-user-shield fa-3x text-white"></i>
+                        </div>
+                        <div class="featurs-content text-center">
+                            <h5>Security Payment</h5>
+                            <p class="mb-0">100% security payment</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="featurs-item text-center rounded bg-light p-4">
+                        <div class="featurs-icon btn-square rounded-circle bg-secondary mb-5 mx-auto">
+                            <i class="fas fa-exchange-alt fa-3x text-white"></i>
+                        </div>
+                        <div class="featurs-content text-center">
+                            <h5>30 Day Return</h5>
+                            <p class="mb-0">30 day money guarantee</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="featurs-item text-center rounded bg-light p-4">
+                        <div class="featurs-icon btn-square rounded-circle bg-secondary mb-5 mx-auto">
+                            <i class="fa fa-phone-alt fa-3x text-white"></i>
+                        </div>
+                        <div class="featurs-content text-center">
+                            <h5>24/7 Support</h5>
+                            <p class="mb-0">Support every time fast</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-sm-8 col-md-7 col-lg-6 col-xl-4">
+            <div class="bg-light rounded">
+                <div class="p-4">
+                    <h1 class="display-6 mb-4">Cart <span class="fw-normal">Total</span></h1>
+                    <div class="d-flex justify-content-between mb-4">
+                        <h5 class="mb-0 me-4">Subtotal:</h5>
+                    <p class="mb-0">@Model &#163;</p>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <h5 class="mb-0 me-4">Shipping</h5>
+                        <div class="">
+                        <p class="mb-0">Flat rate: 50.00 &#163;</p>
+                        </div>
+                    </div>
+                    <p class="mb-0 text-end">Shipping to Cairo.</p>
+                </div>
+                <div class="py-4 mb-4 border-top border-bottom d-flex justify-content-between">
+                <h5 class="mb-0 ps-4 me-4">Total </h5>
+                <p class="mb-0 pe-4">@total &#163;</p>
+                </div>
+
+                <h1 class="display-6 mb-4 px-4">Payment <span class="fw-normal">Method</span></h1>
+
+            <div class="form-check mx-5">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" onclick="payMethodRadio('Card')">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    Credit Card
+                </label>
+            </div>
+
+            <div class="form-check mx-5">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" onclick="payMethodRadio('Cod')">
+                <label class="form-check-label" for="flexRadioDefault2">
+                    Cash On Delivery
+                </label>
+            </div>
+
+            <form asp-action="PaymentMethod" asp-controller="Checkout" method="post">
+                <input type="text" value="" id="payMethod" name="payMethod" hidden/>
+                <button class="btn border-secondary rounded-pill px-4 py-3 text-primary text-uppercase mb-4 ms-4 my-3" type="submit">Proceed Payment</button>
+            </form>
+                
+
+                
+              
+
+               
+               
+            </div>
+        </div>
+    </div>
+
+   
+    <!-- Featurs Section End -->

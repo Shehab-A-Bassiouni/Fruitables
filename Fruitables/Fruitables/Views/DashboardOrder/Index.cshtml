@@ -1,0 +1,71 @@
+﻿@model List<FruitablesBL.ViewModels.ManageOrderVM>
+
+@{
+    Layout = null;
+    ViewData["Title"] = "Manage Orders";
+}
+
+<link rel="stylesheet" href="ProductCard.css">
+
+<div class="row">
+    <h2>Confirm Order</h2>
+
+    <table id="orderTable" class="table table-striped" style="width: 80%; font-size: 0.5em;">
+        <thead class="thead-dark">
+            <tr>
+                <th>OrderId</th>
+                <th>State</th>
+                <th>Date</th>
+                <th>OrderName</th>
+                <th>TotalPrice</th>
+                <th>ShippingState</th>
+                <th>CustomerID</th>
+                <th>ShippingFees</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var order in Model)
+            {
+                <tr style="">
+                    <td>@order.OrderId</td>
+                    <td>@GetStateText(order.State)</td>
+                    <td>@order.Date</td>
+                    <td>@order.OrderName</td>
+                    <td>@order.TotalPrice</td>
+                    <td>@(order.ShippingState ? "Delivered" : "Not Delivered")</td>
+                    <td>@order.CustomerId</td>
+                    <td>@order.ShippingFees</td>
+                    <td>
+                        <form id="updateShippingForm" action="@Url.Action("UpdateShippingState", "DashboardOrder")" method="post">
+                            @Html.Hidden("orderId", order.OrderId)
+                            <input type="checkbox" id="newShippingState" @(order.ShippingState ? "checked" : "") /> Delivered
+                            <input type="button" id="submitShippingState" value="Delivered" class="btn btn-outline-primary" onclick="changeshippingState(@order.OrderId)" />
+                        </form>
+                    </td>
+                </tr>
+
+            }
+        </tbody>
+    </table>
+
+</div>
+<script>
+    @functions {
+        public string GetStateText(int state)
+        {
+            switch (state)
+            {
+                case 1:
+                    return "Getting Ready";
+                case 2:
+                    return "On Way";
+                case 3:
+                    return "Shipped";
+                default:
+                    return "Unknown";
+            }
+        }
+    }
+</script>
+<script src="~/js/order.js"></script>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>

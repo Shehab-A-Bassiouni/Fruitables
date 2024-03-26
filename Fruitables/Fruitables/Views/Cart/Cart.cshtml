@@ -1,0 +1,106 @@
+﻿  @model FruitablesBL.ViewModels.CartVm
+@{
+    string itemPrice;
+}
+
+  <!-- Single Page Header start -->
+    <div class="container-fluid page-header py-5">
+        <h1 class="text-center text-white display-6">Cart</h1>
+        <ol class="breadcrumb justify-content-center mb-0">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Pages</a></li>
+            <li class="breadcrumb-item active text-white">Cart</li>
+        </ol>
+    </div>
+    <!-- Single Page Header End -->
+    <!-- Cart Page Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Product</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Price</th>
+                            <th scope="col">Price After Discount</th>
+                            <th scope="col">Quantity</th>
+                            <th scope="col">Total After Discount</th>
+                            <th scope="col">Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    @{
+                        foreach (FruitablesBL.ViewModels.CartItemVM item in Model.CartItems ?? new List<FruitablesBL.ViewModels.CartItemVM>() { })
+                        {
+                                <tr>
+                                    <td scope="row">
+                                        <div class="d-flex align-items-center">
+                                            <img src="@item.ItemImage" class="img-fluid me-5 rounded-circle" style="width: 80px; height: 80px;" alt="">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <p class="mb-0 mt-4">@item.ItemName</p>
+                                    </td>
+                                <td>
+                                    <p id="totalPriceTag_@item.ItemID" class="mb-0 mt-4"><s>@item.ItemPrice</s> <span>&#163;</span></p>
+                                </td>
+
+                                <td>
+                                    @{
+                                       string itemPriceAfter = (item.ItemPrice - (item.ItemPrice*(item.Offer/100))) + " £";
+                                    }
+                                    <p id="itemPriceTag" class="mb-0 mt-4"> @itemPriceAfter </p>
+                                </td>
+
+                                    <td>
+                                    
+
+                                    <div class="input-group quantity mt-4" style="width: 100px;">
+                                        <div class="input-group-btn">
+                                            <button id="minusBtn_@item.ItemID" class="btn btn-sm btn-minus rounded-circle bg-light border" onclick="updateQuantity(@item.ItemID,'-')">
+                                                <i class="fa fa-minus"></i>
+                                            </button>
+                                        </div>
+
+                                            <input id="itemID" name="itemID" type="text" value="@item.ItemID" hidden />
+                                            <input id="quantityTag_@item.ItemID" name="itemQuantity" type="text" class="form-control form-control-sm text-center border-0" value="@item.ItemQuantity">
+
+
+                                        <div class="input-group-btn">
+                                            <button id="plusBtn_@item.ItemID"  class="btn btn-sm btn-plus rounded-circle bg-light border" onclick="updateQuantity(@item.ItemID,'+')">
+                                                <i class="fa fa-plus"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    
+
+                                    </td>
+                                  
+
+                                <td>
+                                   
+                                    <p id="totalPriceTagAfter_@item.ItemID" class="mb-0 mt-4">@item.ItemTotalPrice <span>&#163;</span></p>
+                                </td>
+
+                                    <td>
+                                    <a asp-action="DeleteItem" asp-controller="Cart" asp-route-itemid="@item.ItemID" class="btn btn-md rounded-circle bg-light border mt-4">
+                                            <i class="fa fa-times text-danger"></i>
+                                        </a>
+                                    </td>
+
+                                </tr>
+                            
+                                
+
+                            }
+
+                          }
+                    </tbody>
+                </table>
+            </div>
+        <a asp-controller="Cart" asp-action="GoCheckout" class="btn border-secondary rounded-pill px-4 py-3 text-primary text-uppercase mb-4 ms-4" type="button">Proceed Checkout</a>
+            
+        </div>
+    </div>
+    <!-- Cart Page End -->

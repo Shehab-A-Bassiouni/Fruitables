@@ -1,0 +1,85 @@
+﻿@using FruitablesBL.ViewModels
+
+@model ProductListVM
+
+<div id="productsOnly" class="row g-4 justify-content-center">
+    @foreach (ProductVM p in Model.prodsVMS)
+    {
+        <div class="col-md-6 col-lg-6 col-xl-4">
+            <div class="rounded position-relative fruite-item">
+                <div class="fruite-img">
+                    <img src="@(p.Image)" class="img-fluid w-100 rounded-top border border-secondary" alt="">
+                </div>
+                <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">@p.Category.Name</div>
+                <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                    <h4>@p.Name</h4>
+                    <p>@p.Description</p>
+                    <div class="d-flex justify-content-between flex-lg-wrap">
+                        @if (p.offer != null)
+                        {
+                            <div class="ribbon">
+                                @p.offer.Discount% OFF
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div class="row">
+                                    <div style="font-size: 18px; text-decoration: line-through;">$@p.Price / Kg</div>
+                                    <div style="font-size: 25px">$@(p.Price * (1 - (p.offer.Discount / 100))) / Kg</div>
+                                </div>
+                                <div>
+                                    @*< p class="text-dark fs-5 fw-bold mb-0">@(p.offer.Discount)% Discount</p>
+                            <p class="text-dark fs-5 fw-bold mb-0">Offer Ends on @p.offer.ExpireDate.Date</p> *@
+                                </div>
+                            </div>
+                        }
+                        else
+                        {
+                            <p class="text-dark fs-5 fw-bold mb-0">$@p.Price / kg</p>
+                        }
+
+                        <form asp-action="Cart" asp-controller="Cart" method="post" id="AddToCart">
+                            <input hidden name="itemID" value="@p.ProductId" />
+                            <input hidden name="itemName" value="@p.Name" />
+                            <input hidden name="itemPrice" value="@p.Price" />
+                            <input hidden name="itemQuantity" value="1" />
+                            <input hidden name="itemTotalPrice" value="@p.Price" />
+                            <input hidden name="itemImage" value=@(p.ProductId).jpg />
+                            <input hidden name="customerID" value="9" />
+
+
+
+                            <button type="submit" id="liveToastBtn" class="btn border border-secondary rounded-pill px-3 text-primary" onclick="AddedCard()">
+                                <i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart
+                            </button>
+
+                            @*   <a asp-action="Index" asp-controller="Feedback" asp-route-id="@p.ProductId" class="btn border border-secondary rounded-pill px-3 text-primary mt-3">
+                        <i class="fas fa-star"></i> Reviews
+                        </a> *@
+
+                            <button asp-action="Details" asp-controller="ProductDetails" asp-route-productID="@p.ProductId" class="btn border border-secondary rounded-pill px-3 text-primary mt-3">
+                                <i class="fas fa-info-circle"></i> See More
+                            </button>
+
+                            <div class="position-fixed bottom-0 end-0 cart-msg">
+                                <div id="liveToast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
+                                    <div class="toast-header position-relative">
+                                        <img src="~/img/cart.gif" class="rounded img-fluid w-50" alt="...">
+                                    </div>
+                                    <div class="toast-body">
+                                        Added to Cart!
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    }
+</div>

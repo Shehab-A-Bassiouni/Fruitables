@@ -1,0 +1,82 @@
+﻿@model FruitablesBL.ViewModels.CategoryVM
+@{
+    Layout = null;
+    ViewData["Title"] = "Delete";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Category Confirmation</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: #E2E5EE;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container d-flex justify-content-center align-items-center vh-100">
+        <div class="card">
+            <div class="card-header bg-danger text-white">
+                <h5 class="mb-0">Delete Category</h5>
+            </div>
+            <div class="card-body">
+                <p class="card-text">Are you sure you want to delete the following category?</p>
+                <dl class="row">
+                    <dt class="col-sm-3">Category ID:</dt>
+                    <dd class="col-sm-9">@Model.CategoryId</dd>
+
+                    <dt class="col-sm-3">Name:</dt>
+                    <dd class="col-sm-9">@Model.Name</dd>
+
+                    <!-- Add other category properties as needed -->
+                </dl>
+
+                <form id="deleteForm" action="@Url.Action("DeleteConfirmed", "Category", new { categoryId = Model.CategoryId })" method="post">
+                    @Html.AntiForgeryToken()
+
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                        <button type="submit" class="btn btn-danger me-md-2">Delete</button>
+                        <a href="@Url.Action("Index", "Category")" class="btn btn-secondary">Cancel</a>
+                    </div>
+                </form>
+
+                <script>
+                    document.getElementById('deleteForm').addEventListener('submit', function (event) {
+                        event.preventDefault(); // Prevent default form submission
+
+                        if (confirm('Are you sure you want to delete this category?')) {
+                            // Submit the form via AJAX
+                            var form = this;
+                            fetch(form.action, {
+                                method: form.method,
+                                body: new FormData(form)
+                            }).then(function (response) {
+                                if (response.ok) {
+                                    alert('Category deleted successfully!');
+                                   // $('#mainContainer').html(response);
+                                    window.location.href = '@Url.Action("Index", "DashBoard")'; 
+                                } else {
+                                    alert('Failed to delete category.');
+                                }
+                            }).catch(function (error) {
+                                console.error('Error:', error);
+                                alert('An error occurred while deleting the category.');
+                            });
+                        }
+                    });
+                </script>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+
+    <script src="../js/category.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+﻿
+
+ @model IEnumerable<FruitablesBL.ViewModels.OffersVM>
+
+@{
+    Layout=null;
+    ViewData["Title"] = "Offers";
+}
+
+<link rel="stylesheet" href="ProductCard.css">
+<div class="container mt-4 mb-4">
+    <div class="row justify-content-end">
+        <div class="col-md-4">
+            <div class="text-end">
+                <a id="newoffer" class="btn btn-success">Create Offer</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <h2>Offers</h2>
+
+    <table class="table table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th>Description</th>
+                <th>Discount</th>
+                <th>Expiration</th>
+                <th>State</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var offer in Model)
+            {
+                <tr style="">
+                    <td>@offer.Description</td>
+                    <td>@offer.Discount %</td>
+                    <td>@offer.ExpireDate</td>
+                    @if (offer.ExpireDate < DateTime.Today)
+                    {
+                        <td style="color:burlywood">Expired</td>
+
+                    }
+                    else
+                    {
+                        <td style="color:coral">Running</td>
+                    }
+
+                    <!-- Add more table cells for other properties -->
+                    <td>
+                        @* <a asp-action="Edit" asp-route-productid="@product.ProductId" class="btn btn-outline-primary">Edit</a> *@
+                        <a onclick="getofferDetails(@offer.OfferId)" class="btn btn-outline-primary">Details</a>
+                        <a onclick="deleteDetails(@offer.OfferId)" class="btn btn-outline-primary">Delete</a>
+                    </td>
+                </tr>
+
+            }
+        </tbody>
+    </table>
+    
+</div>
+
+<script src="~/js/offers.js"></script>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+

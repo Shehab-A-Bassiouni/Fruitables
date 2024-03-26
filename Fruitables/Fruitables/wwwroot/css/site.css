@@ -1,0 +1,23 @@
+﻿.cart-btn:focus {
+    box-shadow: 0 0 0 0.25rem rgba(129,196,8,.25) !important;
+}
+
+
+.styleF {
+    min-height:160px;
+}
+
+.styleB {
+    min-height: 250px;
+}
+
+.pay-successed {
+    width:300px;
+    height:150px;
+
+}
+
+.order-placed {
+    width: 300px;
+    height: 100px;
+}

@@ -1,7 +1,6 @@
 .git
 .github
-Fruitables\Fruitables\.vs
-Fruitables\.git
+*.vs
+*.bin
+*.obj
 *.dll
-*.dll
-Fruitables/Fruitables/Fruitables/bin/Debug/net8.0/bn-BD/Humanizer.resources.dll

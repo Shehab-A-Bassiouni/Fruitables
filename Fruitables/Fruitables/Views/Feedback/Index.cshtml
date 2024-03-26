@@ -1,0 +1,125 @@
+﻿@model IEnumerable<FruitablesDAL.Models.FeedBack>
+
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+@if(User.Identity.IsAuthenticated)
+{
+    <p>
+        <a asp-action="Create" asp-route-id="@ViewBag.CurrentProdId" class="btn btn-outline-success ms-3">Create New</a>
+    </p>
+}
+
+
+<div class="form-group col-sm-3">
+    <form>
+        <input type="hidden" id="starCount" name="Rate" value="" />
+        <label class="ms-3">Filter By Rate: </label>&emsp;
+        <button type="submit" class="btn btn-link p-0 border-0 bg-transparent text-primary" onclick="rateStar(1)">
+            <i id="star1" class="fas fa-star text-muted"></i>
+        </button>
+        <button type="submit" class="btn btn-link p-0 border-0 bg-transparent text-primary" onclick="rateStar(2)">
+            <i id="star2" class="fas fa-star text-muted"></i>
+        </button>
+        <button type="submit" class="btn btn-link p-0 border-0 bg-transparent text-primary" onclick="rateStar(3)">
+            <i id="star3" class="fas fa-star text-muted"></i>
+        </button>
+        <button type="submit" class="btn btn-link p-0 border-0 bg-transparent text-primary" onclick="rateStar(4)">
+            <i id="star4" class="fas fa-star text-muted"></i>
+        </button>
+        <button type="submit" class="btn btn-link p-0 border-0 bg-transparent" onclick="rateStar(5)">
+            <i id="star5" class="fas fa-star text-muted"></i>
+        </button>
+    </form>
+</div>
+
+<div class="owl-carousel testimonial-carousel">
+@foreach (var item in Model) {
+    if(@item.IsActive)
+        {
+        <div class="testimonial-item img-border-radius bg-light rounded p-4" style="height:280px">
+            <div class="position-relative">
+                <i class="fa fa-quote-right fa-2x text-secondary position-absolute" style="bottom: 30px; right: 0;"></i>
+                <div class="mb-4 pb-4 border-bottom border-secondary">
+                    <p class="mb-0">
+                            @{
+                                if (@item.Review.Length > 70)
+                                {
+                                    @($"{item.Review.Substring(0, Math.Min(70, item.Review.Length))}...SeeMore")
+                                }
+                                else
+                                {
+                                    @item.Review
+                                }
+                            }
+                        
+                    </p>
+                </div>
+                <div class="d-flex align-items-center flex-nowrap">
+                    <div class="bg-secondary rounded">
+                        <img src="@item.Customer.CustomerNavigation.Image" class="img-fluid rounded" style="width: 100px; height: 100px;" alt="">
+                    </div>
+                    <div class="ms-4 d-block">
+                        <h4 class="text-dark">@item.Customer.CustomerNavigation.FirstName @item.Customer.CustomerNavigation.LastName</h4>
+                        <p class="m-0 pb-3">@item.Date.ToShortDateString()</p>
+                        <div class="d-flex pe-5">
+                            @{
+                                int iterator =(int)Math.Round(item.Rate, MidpointRounding.AwayFromZero);
+                                for(int i=0; i<iterator;i++)
+                                {
+                                    <i class="fas fa-star text-primary"></i>
+                                }
+                            }
+                        </div>
+                        <div class="mt-4 ">
+                                @{
+                                    if (User.Identity.IsAuthenticated && ViewBag.CurrentCustomerId == item.CustomerId)
+                                    {
+                                         <a asp-action="Edit" asp-route-id="@item.FeedbackId" class="btn btn-outline-warning ms-3">Edit</a>
+                                         <a asp-action="Delete" asp-route-id="@item.FeedbackId" class="btn btn-outline-danger ms-3">Delete</a>
+                                    }
+
+                                    if (@item.Review.Length > 70)
+                                    {
+                                        <a asp-action="Details" asp-route-id="@item.FeedbackId" class="btn btn-outline-info ms-3">SeeMore</a>
+                                    }
+
+                                }
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        }
+
+}
+ 
+ </div>
+
+<script>
+    function rateStar(count) {
+
+        for (let i = 1; i <= 5; i++) {
+            document.getElementById("star" + i).classList.remove("text-muted");
+        }
+
+
+        for (let i = count + 1; i <= 5; i++) {
+            document.getElementById("star" + i).classList.add("text-muted");
+        }
+
+        document.getElementById("starCount").value = count;
+    }
+
+</script>

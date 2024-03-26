@@ -1,0 +1,223 @@
+﻿ @model FruitablesBL.ViewModels.ManageProductVM
+@{
+    Layout = null;
+    ViewData["Title"] = "Create";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request a Demo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        .card {
+            padding: 30px 40px;
+            margin-top: 60px;
+            margin-bottom: 60px;
+            border: none !important;
+            box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2);
+        }
+
+        .blue-text {
+            color: #00BCD4;
+        }
+
+        .form-control-label {
+            margin-bottom: 0;
+        }
+
+        input,
+        textarea,
+        button {
+            padding: 8px 15px;
+            border-radius: 5px !important;
+            margin: 5px 0px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            font-size: 18px !important;
+            font-weight: 300;
+        }
+
+            input:focus,
+            textarea:focus {
+                -moz-box-shadow: none !important;
+                -webkit-box-shadow: none !important;
+                box-shadow: none !important;
+                border: 1px solid #00BCD4;
+                outline-width: 0;
+                font-weight: 400;
+            }
+
+        .btn-block {
+            text-transform: uppercase;
+            font-size: 15px !important;
+            font-weight: 400;
+            height: 43px;
+            cursor: pointer;
+        }
+
+            .btn-block:hover {
+                color: #fff !important;
+            }
+
+        button:focus {
+            -moz-box-shadow: none !important;
+            -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+            outline-width: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container-fluid px-1 py-5 mx-auto">
+        <div class="row d-flex justify-content-center">
+            <div class="col-xl-7 col-lg-8 col-md-9 col-11 text-center">
+                <div class="card">
+                    <h5 class="text-center mb-4">New Product </h5>
+                    <form id="productForm" class="form-card" onsubmit="refreshPage();" enctype="multipart/form-data">
+
+                        <input type="hidden" id="Categories" name="Categories" value="@Model.Categories">
+                        <input type="hidden" id="CategoryName" name="CategoryName" value="@Model.Categories">
+                        <input type="hidden" id="Sellers" name="Sellers" value="@Model.Sellers">
+                        <input type="hidden" id="SellerId" name="SellerId" value="@Model.SellerId">
+                        <input type="hidden" id="Rate" name="Rate" value="@Model.Rate">
+                        <input type="hidden" name="IsActive" value="1">
+                        <div class="row justify-content-center">
+                            <div id="imagePreviewDiv" class="col-md-6" style="display: none;">
+                                <div class="d-flex justify-content-center">
+                                    <div class="form-group">
+                                        <img src="" id="imageid" class="img-fluid card" style="object-fit: contain;" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-between text-left">
+                            <div class="row justify-content-between text-left">
+                                <div class="form-group col-12 flex-column d-flex">
+                                    <label class="form-control-label px-3">Product Name<span class="text-danger"> *</span></label>
+                                    <input type="text" id="Name" name="Name" placeholder="Enter your Product Name">
+                                </div>
+                            </div>
+                            <div class="row justify-content-between text-left">
+                                <div class="form-group col-12 flex-column d-flex">
+                                    <label class="form-control-label px-3">Product Description<span class="text-danger"> *</span></label>
+                                    <textarea type="text" id="Description" name="Description" placeholder="Enter your Product Description"></textarea>
+                                </div>
+                            </div>
+                            <div class="row justify-content-between text-left">
+                                <div class="form-group col-sm-6 flex-column d-flex">
+                                    <label class="form-control-label px-3">Product Stock<span class="text-danger"> *</span></label>
+                                    <input type="text" id="Stock" name="Stock" placeholder="Enter your Product Stock">
+                                </div>
+                                <div class="form-group col-sm-6 flex-column d-flex">
+                                    <label class="form-control-label px-3">Product Price<span class="text-danger"> *</span></label>
+                                    <input type="text" id="Price" name="Price" placeholder="Enter your Product Price">
+                                </div>
+                            </div>
+                            <div class="row justify-content-between text-left">
+                                <div class="form-group col-sm-6 flex-column d-flex">
+                                    <label class="form-control-label px-3">Product CostPrice<span class="text-danger"> *</span></label>
+                                    <input type="text" id="CostPrice" name="CostPrice" placeholder="Enter your Product CostPrice">
+                                </div>
+
+                                <div class="form-group col-sm-6 flex-column d-flex">
+                                    <label class="form-control-label px-3">Categories<span class="text-danger"> *</span></label>
+                                    <input type="hidden" name="Categories" value="@Model.Categories">
+                                    <select asp-for="CategoryId" class="form-control" asp-items="@Model.Categories">
+                                        <option value="">-- Select Category --</option>
+                                    </select>
+                                </div>
+                                <div id="uploadFormDiv">
+                                    <div class="form-group">
+                                        <label asp-for="Image" class="col-form-label">Image:</label>
+                                        <div class="custom-file">
+                                            <input type="file" name="imageFormFile" class="custom-file-input" id="imageFormFile" accept=".png,.jpg,.svg,.jfif" onchange="SetImgSrc()">
+                                            <label class="custom-file-label" for="imageFormFile">Choose file</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row justify-content-center">
+                                    <div class="form-group col-sm-6">
+                                        <button type="submit" class="btn-block btn-Success">Add PProduct</button>
+                                    </div>
+                                </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+
+
+        function SetImgSrc() {
+            var fileInput = document.getElementById("imageFormFile");
+            var imagePreviewDiv = document.getElementById("imagePreviewDiv");
+            var uploadFormDiv = document.getElementById("uploadFormDiv");
+
+            if (fileInput.files && fileInput.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    document.getElementById("imageid").src = e.target.result;
+                };
+                reader.readAsDataURL(fileInput.files[0]);
+                imagePreviewDiv.style.display = "block";
+                uploadFormDiv.style.display = "none";
+            }
+        }
+        function refreshPage() {
+            window.location.reload();
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#productForm').submit(function (event) {
+                event.preventDefault(); // Prevent default form submission
+
+                var formData = new FormData(); // Create form data object
+
+                // Append form fields to FormData object
+                formData.append('Name', $('#Name').val());
+                formData.append('Description', $('#Description').val());
+                formData.append('Stock', $('#Stock').val());
+                formData.append('Rate', $('#Rate').val());
+                formData.append('Sellers', $('#Sellers').val());
+                formData.append('Price', $('#Price').val());
+                formData.append('CostPrice', $('#CostPrice').val());
+                formData.append('CategoryId', $('#CategoryId').val());
+                formData.append('CategoryName', $('#CategoryName').val());
+                formData.append('Categories', $('#Categories').val());
+                formData.append('SellerId', $('#SellerId').val());
+                formData.append('imageFormFile', $('#imageFormFile')[0].files[0]); // Append file input
+
+                $.ajax({
+                    url: '/DashboardProduct/Create',
+                    type: 'POST',
+                    data: formData,
+                    processData: false,  // Important to prevent jQuery from processing the data
+                    contentType: false,  // Important to prevent jQuery from setting contentType
+                    success: function (response) {
+                        console.log('Success:', response);
+                        // Optionally, you can reload the page or perform any other action
+                        $('#mainContainer').html(response);
+                    },
+                    error: function (xhr, status, error) {
+                        console.error('Error:', error);
+                    }
+                });
+            });
+        });
+
+
+
+    </script>
+    <script src="../js/product.js"></script>
+</body>
+</html>
