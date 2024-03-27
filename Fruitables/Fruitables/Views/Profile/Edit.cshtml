@@ -1,0 +1,213 @@
+﻿@model FruitablesBL.ViewModels.ProfileVM
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Settings</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/EditStyle.css">
+</head>
+
+<body class="gradient-custom">
+
+    <form method="post" asp-action="Edit" asp-controller="Profile" enctype="multipart/form-data">
+
+        <input type="hidden" name="UserId" value="@Model.UserId">
+        <input type="hidden" name="Admin" value="@Model.Admin">
+        <input type="hidden" name="SellerId" value="@Model.SellerId">
+        <input type="hidden" name="Seller" value="@Model.Seller">
+
+
+
+
+        <input type="hidden" name="Customer" value="@Model.Customer">
+        <input type="hidden" name="Rate" value="@Model.Rate">
+        <div class="container rounded bg-white mt-5 mb-5 ParentDiv">
+            <div class="row">
+                <div class="col-md-3 border-right">
+                    <div class="d-flex flex-column align-items-center text-center p-3 py-5">
+                        <img class="rounded-circle mt-5" width="150px"
+                             src="@Model.Image" id="imageid" >
+
+                     
+                        <span class="font-weight-bold">@Model.UserName</span>
+                        <span class="text-black-50">@Model.Email</span>
+                    </div>
+                </div>
+                <div class="col-md-5 border-right">
+                    <div class="p-3 py-5">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h4 class="text-right">Personal Profile</h4>
+                        </div>
+                        <div class="row mt-2">
+
+                            <div class="col-md-6">
+                                <label class="labels">First Name</label>
+                                <input type="text" class="form-control" name="FirstName" placeholder="First Name"
+                                       value="@Model.FirstName">
+                            </div>
+                            <div class="col-md-6">
+                                <label class="labels">Last Name</label>
+                                <input type="text" class="form-control" name="LastName" placeholder="Last Name"
+                                       value="@Model.LastName">
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+
+                            <div class="col-md-12">
+                                <label class="labels">UserName</label>
+                                <input type="text" class="form-control" name="UserName" placeholder="UserName"
+                                       value="@Model.UserName" disabled>
+                                <input type="hidden" name="UserName" value="@Model.UserName">
+                            </div>
+                            <div class="col-md-12">
+                                <div>
+                                    <label class="labels">Mobile Number</label>
+                                    <input asp-for="PhoneNumber" placeholder="Mobile Number" class="form-control" value="@Model.PhoneNumber" />
+                                </div>
+                                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-12">
+                                <label class="labels">Email</label>
+                                <input type="text" class="form-control" name="Email" placeholder="Email"
+                                       value="@Model.Email" disabled>
+                                <input type="hidden" name="Email" value="@Model.Email">
+
+                            </div>
+
+                            <div class="col-md-12">
+                                <div>
+                                    <label class="labels">Password</label>
+                                    <input asp-for="OldPassword" placeholder="Old Password" class="form-control" value="" />
+                                </div>
+                                <span asp-validation-for="OldPassword" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-12">
+                                <div>
+                                    <label class="labels">Confirm Password</label>
+                                    <input asp-for="CurrentPassword" placeholder="New Password" class="form-control" value="" />
+                                </div>
+                                <span asp-validation-for="CurrentPassword" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Image">Image:</label>
+
+                                <input type="file" name="imageFormFile" class="form-control" id="imageFormFile"  accept=".png,.jpg,.svg,.jfif" onchange="SetImgSrc()"></input>
+                                <input type="hidden" asp-for="UserId" />
+                                <input type="hidden" asp-for="Image" />
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-3 py-5">
+                        <div class="d-flex justify-content-between align-items-center experience">
+                            <h4 class="text-right">Special Information</h4>
+                        </div><br>
+                        @if (Model.Customer != null && Model.Customer.CustomerId == Model.UserId)
+                        {
+                            <input type="hidden" name="Customer.CustomerId" value="@Model.Customer.CustomerId">
+                            <div class="col-md-12">
+                                <label class="labels">Address</label>
+
+                                <input type="text" class="form-control" placeholder="Address" name="Customer.Address" value="@Model.Customer.Address">
+                            </div>
+                        }
+                        @if (Model.Seller != null && Model.Seller.SellerId == Model.UserId)
+                        {
+                            <input type="hidden" name="Seller.SellerId" value="@Model.Seller.SellerId">
+                            <div class="col-md-12">
+                                <label class="labels">CommercialName</label>
+                                <input type="text" class="form-control" name="Seller.CommercialName" placeholder="CommercialName" value="@Model.Seller.CommercialName">
+                            </div>
+                            <br />
+                            <div class="col-md-12">
+                                <label class="labels">Address</label>
+                                <input type="text" class="form-control" placeholder="Address" name="Seller.Address" value="@Model.Seller.Address">
+                            </div>
+                            <br />
+                            <div class="col-md-12">
+                                <label class="labels">Rate</label>
+                                <input type="text" class="form-control" name="Seller.Rate" placeholder="Rate" value="@Model.Seller.Rate" disabled>
+                            </div>
+                            <br />
+                            <div class="col-md-12">
+
+                   
+                                <label asp-for="Logo">Logo:</label>
+
+                                <input type="file" name="imageFormFile2" class="form-control" id="imageFormFile2" accept=".png,.jpg,.svg,.jfif" ></input>
+                                
+
+                            </div>
+                        }
+                        else if (Model.Admin != null && Model.Admin.AdminId == Model.UserId)
+                        {
+                            <input type="hidden" name="Admin.AdminId" value="@Model.Admin.AdminId">
+
+                            <div class="col-md-12">
+                                <label class="labels">AuthorityLevelId</label>
+                                <input type="text" class="form-control" placeholder="AuthorityLevelId" name="Admin.AuthorityLevelId" value="@Model.Admin.AuthorityLevelId" disabled>
+                            </div>
+                        }
+                    </div>
+
+
+                    <div class="mt-12 text-center">
+
+                        <div class="row align-items-start">
+
+                            <div class="col-6 mb-3">
+                                <button class="btn btn-success" type="submit">Save Profile</button>
+                            </div>
+
+                            <div class="col-6 mb-3">
+                                <button asp-action="Index" asp-controller="Profile" class="btn btn-success" type="submit">Back To Profile</button>
+                            </div>
+
+                        </div>
+
+                        <div>
+                            <div asp-validation-summary="All" class="text-danger"></div>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </form>
+    <script>
+        function displayFileName() {
+            // Hide the initial logo span
+            document.getElementById('initialLogo').style.display = 'none';
+
+            // Get the input element
+            var input = document.getElementById('fileInput');
+
+            // Get the file name
+            var fileName = input.files[0].name;
+
+            // Display the file name in the fileNameDisplay span
+            document.getElementById('fileNameDisplay').innerText = fileName;
+        }
+        function SetImgSrc() {
+            document.getElementById("imageid").src = window.URL.createObjectURL(document.getElementById("imageFormFile").files[0]);
+        }
+    </script>
+
+    <script src="~/lib/jquery/jquery.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+</body>
+
+</html>
+

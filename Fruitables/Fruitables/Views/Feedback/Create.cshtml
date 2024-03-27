@@ -1,0 +1,89 @@
+﻿@model FruitablesDAL.Models.FeedBack
+
+<h1>Create</h1>
+
+<br />
+<br />
+<br />
+<br />
+<br />
+
+
+   <form asp-action="Create" method="post">
+
+    <div class="testimonial-item img-border-radius bg-light rounded p-4">
+        <div class="position-relative">
+            <i class="fa fa-quote-right fa-2x text-secondary position-absolute" style="bottom: 30px; right: 0;"></i>
+            <div class="mb-4 pb-4 border-bottom border-secondary">
+                    <label asp-for="Review" class="control-label"></label>
+                    <input asp-for="Review" class="form-control" />
+            </div>
+            <div class="d-flex align-items-center flex-nowrap">
+                <div class="ms-4 d-block">
+
+                    <input type="hidden" id="starCount" name="Rate" value="" />
+                    <div class="form-group">
+                        <label asp-for="Rate" class="control-label"></label>:&emsp;
+                        <button type="button" class="btn btn-link p-0 border-0 bg-transparent text-primary" onclick="rateStar(1)">
+                            <i id="star1" class="fas fa-star text-muted"></i>
+                        </button>
+                        <button type="button" class="btn btn-link p-0 border-0 bg-transparent text-primary" onclick="rateStar(2)">
+                            <i id="star2" class="fas fa-star text-muted"></i>
+                        </button>
+                        <button type="button" class="btn btn-link p-0 border-0 bg-transparent text-primary" onclick="rateStar(3)">
+                            <i id="star3" class="fas fa-star text-muted"></i>
+                        </button>
+                        <button type="button" class="btn btn-link p-0 border-0 bg-transparent text-primary" onclick="rateStar(4)">
+                            <i id="star4" class="fas fa-star text-muted"></i>
+                        </button>
+                        <button type="button" class="btn btn-link p-0 border-0 bg-transparent" onclick="rateStar(5)">
+                            <i id="star5" class="fas fa-star text-muted"></i>
+                        </button>
+                    </div>
+
+
+                   
+
+
+                    <input asp-for="IsActive" type="hidden"  value="True" />
+
+
+                    <div class="form-group">
+                        <label asp-for="Date" class="control-label"></label>
+                        <input asp-for="Date" class="form-control" readonly value="@DateTime.Now.ToString("yyyy-MM-ddTHH:mm:ss")" />
+                    </div>
+
+                    
+                        <input asp-for="ProductId" type="hidden" value="@ViewBag.ProductId" />
+                    <div class="form-group">
+                        <input asp-for="CustomerId" type="hidden" value="@ViewBag.CustomerId" />
+                    </div>
+
+                    <div class="form-group">
+                        <input type="submit" value="Create" class="btn btn-primary" />
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+        </form>
+
+
+<script>
+    function rateStar(count) {
+
+        for (let i = 1; i <= 5; i++) {
+            document.getElementById("star" + i).classList.remove("text-muted");
+        }
+
+        for (let i = count+1; i <= 5; i++) {
+            document.getElementById("star" + i).classList.add("text-muted");
+        }
+
+        document.getElementById("starCount").value = count;
+    }
+</script>
+
+

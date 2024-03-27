@@ -1,0 +1,66 @@
+﻿@model List<FruitablesBL.ViewModels.ManageSellerVM>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+@{
+    // Layout = "~/Views/Dashboard/_DashBoard.cshtml";
+    Layout = null;
+    ViewBag.Breadcrumb = "GetAll";
+}
+
+<div class="container">
+    <div class="row">
+        @* <a asp-controller="ManageSeller" asp-action="Create" class="btn btn-outline-success">Create A New Shop</a> *@
+
+        @foreach (var seller in Model)
+        {
+            
+                
+            <div class="col-md-4 mb-4">
+                
+                <div class="card">
+                    <img class="card-img-top" src="~/images/Shops/@seller.Logo" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">@seller.CommercialName
+
+                            <div class="col-md-3 text-right pqr">
+                                @{
+                                    var rate = seller.Rate;
+                                    for (var i = 1; i <= 5; i++)
+                                    {
+                                        <i class="fa fa-star@(i <= rate ? "" : "-o")"></i>
+                                    }
+                                }
+                            </div>
+
+                        </h4>
+                        
+                        @*<h5 class="card-subtitle">@seller.Rate  </h5> *@
+                        
+                        <h6 class="card-subtitle mb-2 text-muted">@seller.SellerName</h6>
+
+                        <p class="card-text">@seller.Address</p>
+
+                       @*  <a asp-controller="ManageSeller" asp-action="Edit" asp-route-id="@seller.Id" class="btn btn-outline-warning">Edit</a> *@
+                        <a id="Seller_Details" onclick="GetSellerDetails(@seller.Id)" class="btn btn-outline-info">Details</a>
+                       @*  <a asp-controller="ManageSeller" asp-action="Delete" asp-route-id="@seller.Id" class="btn btn-outline-danger">Delete</a> *@
+
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+<style>
+    .pqr {
+        text-align: right;
+        margin: 0px 0px;
+        padding-right: 20px;
+        padding-top: 10px;
+        display: inline; 
+        
+    }
+
+    .fa-star {
+        color: yellow;
+        
+    }
+</style>

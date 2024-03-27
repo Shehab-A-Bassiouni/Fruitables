@@ -1,0 +1,47 @@
+﻿@model IEnumerable<FruitablesBL.ViewModels.ManageProductVM>
+
+@{
+    Layout=null;
+    ViewData["Title"] = "Products";
+}
+
+<link rel="stylesheet" href="ProductCard.css">
+<div class="container mt-4 mb-4">
+    <div class="row justify-content-end">
+        <div class="col-md-4">
+            <div class="text-end">
+                <a id="CreateButton" class="btn btn-success">Create Product</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    @foreach (var product in Model)
+    {
+      @if(product.IsActive== 1)
+      {<div class="col-md-4">
+            <div class="card mb-4" >
+                <img src="@product.Image"class="img-fluid m-auto rounded-circle " style="width: 250px; height: 250px;display: block;margin-left: auto;margin-right: auto;"alt="Product Image">
+
+                <div class="card-body card-body d-flex flex-column justify-content-between">
+                    <h5 class="card-title text-center">@product.Name</h5>
+                    <p class="card-text">@product.Description</p>
+                </div>
+                <div class="card-footer d-flex justify-content-center">
+    
+                    <a class="btn btn-outline-success me-2 edit-button" data-product-id="@product.ProductId">Edit</a>
+
+                    <a class="btn btn-outline-success me-2 detail-button" data-product-id="@product.ProductId">Details</a>
+
+                     <a class="btn btn-outline-success me-2 delete-button" data-product-id="@product.ProductId">Delete</a>
+                </div>
+            </div>
+        </div>
+        }
+
+         
+    }
+</div>
+
+<script src="../js/product.js"></script>
+

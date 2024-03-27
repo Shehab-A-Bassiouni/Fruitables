@@ -1,0 +1,165 @@
+﻿@* 
+
+    @model FruitablesBL.ViewModels.OffersVM
+
+@{
+    Layout = null;
+    ViewData["Title"] = "Edit";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Request a Demo</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<style>
+    body {
+        color: #000;
+        overflow-x: hidden;
+        height: 100%;
+        background-image:url('img\background.png');
+        background-repeat: no-repeat;
+        background-size: 100vh 100vh;
+        background-position:right;
+    }
+    .card {
+        padding: 30px 40px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        border: none !important;
+        box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2);
+    }
+    .blue-text {
+        color: #00BCD4;
+    }
+    .form-control-label {
+        margin-bottom: 0;
+    }
+    input,
+    textarea,
+    button {
+        padding: 8px 15px;
+        border-radius: 5px !important;
+        margin: 5px 0px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        font-size: 18px !important;
+        font-weight: 300;
+    }
+    input:focus,
+    textarea:focus {
+        -moz-box-shadow: none !important;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        border: 1px solid #00BCD4;
+        outline-width: 0;
+        font-weight: 400;
+    }
+    .btn-block {
+        text-transform: uppercase;
+        font-size: 15px !important;
+        font-weight: 400;
+        height: 43px;
+        cursor: pointer;
+    }
+    .btn-block:hover {
+        color: #fff !important;
+    }
+    button:focus {
+        -moz-box-shadow: none !important;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        outline-width: 0;
+    }
+</style>
+</head>
+<body>
+
+<h1>Edit Product</h1>
+
+<div class="container-fluid px-1 py-5 mx-auto" >
+    <div class="row d-flex justify-content-center">
+        <div class="col-xl-7 col-lg-8 col-md-9 col-11 text-center">
+            <div class="card">
+                 
+                    <form id="productEditForm" asp-action=" Edit" method="post" asp-controller="Product" enctype="multipart/form-data">
+
+
+                    <input type="hidden" name="Categories" value="@Model.Categories">
+                    <input type="hidden" name="CategoryName" value="@Model.Categories">
+                    <input type="hidden" name="Sellers" value="@Model.Sellers">
+                    <input type="hidden" name="SellerId" value="@Model.SellerId">
+                        <input type="hidden" name="ProductId" value="@Model.ProductId">
+                        <input type="hidden" name="Image" value="@Model.Image">
+
+                    <input type="hidden" name="IsActive" value="1">
+
+                    <div class="row justify-content-center">
+                        <div id="imagePreviewDiv" class="col-md-6" >
+                            <div class="d-flex justify-content-center">
+                                <div class="form-group">
+                                    <img src="@Model.Image" id="imageid" class="img-fluid card" style="object-fit: contain;" />
+                                </div>
+                            </div>
+                         </div>
+                     </div>
+                     <div class="row justify-content-between text-left">
+                         <div class="row justify-content-between text-left">
+                           <div class="form-group col-12 flex-column d-flex">
+                            <label class="form-control-label px-3">Product Name<span class="text-danger"> *</span></label>
+                            <input type="text" id="Name" name="Name" asp-for="Name" >
+                          </div>
+                        </div>
+                        <div class="row justify-content-between text-left">
+                           <div class="form-group col-12 flex-column d-flex">
+                            <label class="form-control-label px-3">Product Description<span class="text-danger"> *</span></label>
+                            <textarea type="text" id="Description" name="Description"asp-for="Description" ></textarea>
+                          </div>
+                        </div>
+                      <div class="row justify-content-between text-left">
+                        <div class="form-group col-sm-6 flex-column d-flex">
+                            <label class="form-control-label px-3">Product Stock<span class="text-danger"> *</span></label>
+                            <input type="text" id="Stock" name="Stock" asp-for="Stock">
+                        </div>
+                        <div class="form-group col-sm-6 flex-column d-flex">
+                            <label class="form-control-label px-3">Product Price<span class="text-danger"> *</span></label>
+                            <input type="text" id="Price" name="Price" asp-for="Price">
+                        </div>
+                    </div>
+                    <div class="row justify-content-between text-left">
+                        <div class="form-group col-sm-6 flex-column d-flex">
+                            <label class="form-control-label px-3">Product CostPrice<span class="text-danger"> *</span></label>
+                            <input type="text" id="CostPrice" name="CostPrice" asp-for="CostPrice">
+                        </div>
+
+                        <div class="form-group col-sm-6 flex-column d-flex">
+                            <label class="form-control-label px-3">Categories<span class="text-danger"> *</span></label>
+                            <input type="hidden" name="Categories" value="@Model.Categories">
+                            <select asp-for="CategoryId" class="form-control" asp-items="@Model.Categories" onblur="validate(6)">
+                                <option value="">-- Select Category --</option>
+                                   </select>
+                        </div>
+                        <div id="uploadFormDiv">
+                       <div class="form-group">
+                           <label asp-for="Image" class="col-form-label">Image:</label>
+                           <div class="custom-file">
+                               <input type="file" name="imageFormFile" class="custom-file-input" id="imageFormFile" accept=".png,.jpg,.svg,.jfif" onchange="SetImgSrc()">
+                               <label class="custom-file-label" for="imageFormFile">Choose file</label>
+                           </div>
+                           </div>
+                       </div>
+                    <div class="row justify-content-center">
+                        <div class="form-group col-sm-6">
+                            <button type="submit" class="btn-block btn-Success">Save Product</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+     
+</body>
+</html>
+ *@

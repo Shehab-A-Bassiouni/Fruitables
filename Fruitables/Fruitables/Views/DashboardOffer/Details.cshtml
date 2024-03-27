@@ -1,0 +1,52 @@
+﻿@model FruitablesBL.ViewModels.OffersVM
+
+
+
+ @{
+    Layout = null;
+    
+}
+
+ 
+
+<div class="container mt-4 mb-2">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="text-end">
+                <a id="editoffer" class="btn btn-success" >Edit Offer </a>
+                <a id="saveoffer" class="btn btn-success ms-2" hidden>Save </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container py-4 my-4 mx-auto d-flex flex-column" id="inputsDiv">
+    <div class="header">
+        <input hidden asp-for="@Model.OfferId" value="@Model.OfferId" id="offerID" readonly="1"/>
+
+        <div class="col-md-9 abc">
+            <label for="offerdescription">Description:</label>
+            <input type="text" class="form-control" asp-for="@Model.Description" value="@Model.Description" id="offerdescription" readonly="1" />
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+        <div class="col-md-9 abc">
+            <label for="offerdiscount">Discount(%):</label>
+            <input class="form-control" asp-for="@Model.Discount" value="@Model.Discount" id="offerdiscount" readonly="1" />
+            <span asp-validation-for="Discount" class="text-danger"></span>
+        </div>
+        <div class="col-md-9 abc">
+            <label for="offerexpire">Expiration Date:</label>
+            <input asp-for="@Model.ExpireDate" class="form-control" value="@Model.ExpireDate" id="offerexpire" readonly="1"> </input>
+            <span asp-validation-for="ExpireDate" class="text-danger"></span>
+        </div>
+    </div>
+</div>
+    
+<script src="~/js/offers.js"></script>
+
+  
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+
+
