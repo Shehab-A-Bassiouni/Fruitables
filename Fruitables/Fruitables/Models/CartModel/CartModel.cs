@@ -104,7 +104,7 @@ namespace Fruitables.Models.CartModel
             if (memoryCache.TryGetValue(CartKey, out CartVm cart))
             {
                 Order order = new Order();
-                order.State = 3;
+                order.State = 1;
                 order.Date = DateTime.Now;
                 order.ShippingAddress = context.Customers.Find(UserID).Address;
                 order.TotalPrice = subTotal;

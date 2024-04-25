@@ -13,12 +13,12 @@ $('#order-link').click(function loadPartialView() {
         }
     });
 })
-    
-    
-function changeshippingState(orderId) {
-        
 
-    var newShippingState = $('#newShippingState').prop('checked'); 
+
+function changeshippingState(orderId) {
+
+
+    var newShippingState = $('#newShippingState').prop('checked');
 
     $.ajax({
         url: $('#updateShippingForm').attr('action'),
@@ -36,4 +36,3 @@ function changeshippingState(orderId) {
         }
     });
 }
-

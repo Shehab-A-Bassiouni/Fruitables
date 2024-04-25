@@ -39,7 +39,7 @@
                         <form id="updateShippingForm" action="@Url.Action("UpdateShippingState", "DashboardOrder")" method="post">
                             @Html.Hidden("orderId", order.OrderId)
                             <input type="checkbox" id="newShippingState" @(order.ShippingState ? "checked" : "") /> Delivered
-                            <input type="button" id="submitShippingState" value="Delivered" class="btn btn-outline-primary" onclick="changeshippingState(@order.OrderId)"/>
+                            <input type="button" id="submitShippingState" value="Delivered" class="btn btn-outline-primary" onclick="changeshippingState(@order.OrderId)" />
                         </form>
                     </td>
                 </tr>
@@ -47,7 +47,7 @@
             }
         </tbody>
     </table>
-    
+
 </div>
 <script>
     @functions {
@@ -66,11 +66,6 @@
             }
         }
     }
- </script>
+</script>
 <script src="~/js/order.js"></script>
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
-
-
-
-
-
